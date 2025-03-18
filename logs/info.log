@@ -954,3 +954,972 @@ INFO 2025-03-18 11:52:45,901 basehttp "GET /static/css/dist/styles.css?v=1742295
 INFO 2025-03-18 11:52:45,911 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 200 610
 INFO 2025-03-18 11:52:54,239 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
 INFO 2025-03-18 11:52:54,260 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 12:06:12,954 basehttp "GET /static/css/dist/styles.css?v=1742295165 HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,782 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 12:06:31,804 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,808 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,809 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,811 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,813 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,814 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,815 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,818 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,818 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,819 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,820 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,824 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,824 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,825 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,826 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 12:06:31,912 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,912 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,913 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,913 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,914 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,922 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:31,923 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 12:06:32,550 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
+INFO 2025-03-18 12:06:32,574 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 12:06:34,903 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 12:06:34,928 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 12:07:31,054 autoreload D:\projects\qr\qr\qr\qr\settings.py changed, reloading.
+INFO 2025-03-18 12:07:31,681 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 12:07:32,027 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,058 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,060 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:32,183 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,197 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,198 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:32,302 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,313 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,313 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:32,430 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,443 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,443 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:32,555 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,569 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,570 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:32,680 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,696 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,696 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:32,816 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,832 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,832 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:32,942 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:32,956 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:32,957 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,068 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,076 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,076 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,190 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,197 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,197 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,303 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,310 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,310 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,415 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,428 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,430 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,543 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,556 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,557 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,677 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,690 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,690 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,796 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,809 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,810 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:33,921 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:33,930 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:33,930 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:34,036 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:34,048 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:34,049 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:34,163 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:34,179 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:34,179 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:34,292 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:34,308 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:34,308 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:34,626 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:34,634 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:34,634 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:34,954 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:34,967 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:34,968 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:35,277 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:35,290 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:35,291 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:35,604 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:35,619 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:35,620 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:35,930 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:35,938 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:35,938 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:36,249 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:36,264 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:36,265 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:36,581 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:36,590 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:36,590 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:36,902 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:36,912 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:36,912 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:37,220 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:37,236 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:37,236 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:37,548 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:37,561 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:37,561 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:37,873 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:37,881 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:37,881 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:38,202 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:38,217 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:38,218 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:38,525 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:38,532 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:38,533 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:38,838 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:38,846 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:38,847 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:39,166 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:39,183 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:39,183 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:39,494 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:39,508 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:39,508 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:39,825 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:39,834 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:39,835 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:40,146 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:40,161 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:40,161 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:40,474 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:40,483 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:40,484 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:40,805 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:40,819 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:40,820 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:41,839 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:41,849 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:41,849 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:42,857 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:42,865 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:42,865 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:43,889 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:43,907 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:43,908 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:44,926 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:44,934 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:44,935 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:45,952 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:45,959 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:45,960 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:46,977 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:46,991 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:46,991 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:48,001 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:48,015 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:48,016 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+ERROR 2025-03-18 12:07:49,025 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-03-18 12:07:49,041 log Bad Request: /__reload__/events/
+WARNING 2025-03-18 12:07:49,042 basehttp "GET /__reload__/events/ HTTP/1.1" 400 18982
+INFO 2025-03-18 12:07:49,496 autoreload D:\projects\qr\qr\qr\qr\settings.py changed, reloading.
+INFO 2025-03-18 12:07:50,129 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 12:07:50,384 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 12:07:50,410 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 12:07:52,749 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-18 12:07:52,959 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:52,960 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,078 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,078 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,193 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,194 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,313 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,313 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,421 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,422 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,563 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,564 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,677 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,677 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,796 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,796 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:53,902 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:53,902 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,010 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,010 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,122 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,123 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,233 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,233 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,339 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,339 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,451 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,451 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,566 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,567 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,688 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,688 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,798 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,799 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:54,920 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:54,920 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:55,029 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:55,030 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:55,345 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:55,347 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:55,668 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:55,668 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:55,980 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:55,981 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+INFO 2025-03-18 12:07:56,153 basehttp "GET / HTTP/1.1" 200 3930
+WARNING 2025-03-18 12:07:56,171 log Not Found: /static/css/dist/styles.css
+WARNING 2025-03-18 12:07:56,172 log Not Found: /media/qr_codes/qr_code_PVLYlOt.png
+WARNING 2025-03-18 12:07:56,174 log Not Found: /media/qr_codes/qr_code_6gaeg0f.png
+WARNING 2025-03-18 12:07:56,174 basehttp "GET /static/css/dist/styles.css HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,177 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,177 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,189 log Not Found: /media/qr_codes/qr_code_ZUE87oC.png
+WARNING 2025-03-18 12:07:56,190 log Not Found: /media/qr_codes/qr_code_bgx4hFM.png
+WARNING 2025-03-18 12:07:56,190 log Not Found: /media/qr_codes/qr_code.png
+WARNING 2025-03-18 12:07:56,193 log Not Found: /media/qr_codes/qr_code_Q4Xleil.png
+WARNING 2025-03-18 12:07:56,193 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,194 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,194 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,195 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,313 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:56,314 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,620 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:56,621 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+INFO 2025-03-18 12:07:56,897 basehttp "GET / HTTP/1.1" 200 3930
+WARNING 2025-03-18 12:07:56,932 log Not Found: /static/css/dist/styles.css
+WARNING 2025-03-18 12:07:56,933 basehttp "GET /static/css/dist/styles.css HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,938 log Not Found: /media/qr_codes/qr_code_PVLYlOt.png
+WARNING 2025-03-18 12:07:56,940 log Not Found: /media/qr_codes/qr_code_6gaeg0f.png
+WARNING 2025-03-18 12:07:56,942 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:56,945 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,945 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,947 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,972 log Not Found: /media/qr_codes/qr_code_bgx4hFM.png
+WARNING 2025-03-18 12:07:56,974 log Not Found: /media/qr_codes/qr_code.png
+WARNING 2025-03-18 12:07:56,977 log Not Found: /media/qr_codes/qr_code_ZUE87oC.png
+WARNING 2025-03-18 12:07:56,979 log Not Found: /media/qr_codes/qr_code_Q4Xleil.png
+WARNING 2025-03-18 12:07:56,981 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,982 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,982 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:56,984 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:57,103 log Not Found: /favicon.ico
+WARNING 2025-03-18 12:07:57,103 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:57,261 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:57,261 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:57,567 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:57,567 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:57,878 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:57,878 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:58,189 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:58,189 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:58,502 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:58,502 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:58,814 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:58,814 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:59,120 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:59,121 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:59,430 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:59,430 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:07:59,746 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:07:59,747 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:00,061 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:00,062 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:00,375 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:00,375 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:00,696 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:00,697 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:01,006 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:01,006 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:01,317 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:01,317 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:02,335 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:02,336 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:03,346 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:03,346 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:04,357 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:04,357 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:05,368 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:05,368 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:06,382 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:06,383 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:07,396 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:07,396 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:08,412 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:08,412 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:09,430 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:09,431 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:10,441 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:10,441 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:11,461 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:11,461 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:12,471 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:12,471 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:13,484 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:13,484 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:14,494 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:14,494 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:15,515 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:15,517 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:16,528 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:16,528 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:17,537 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:17,537 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:18,550 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:18,551 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:19,564 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:19,565 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:20,581 log Not Found: /__reload__/events/
+WARNING 2025-03-18 12:08:20,582 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:21,341 log Not Found: /media/qr_codes/qr_code_Q4Xleil.png
+WARNING 2025-03-18 12:08:21,341 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 404 179
+INFO 2025-03-18 12:08:24,277 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21986
+INFO 2025-03-18 12:08:24,298 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 87533
+INFO 2025-03-18 12:08:24,299 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 163184
+WARNING 2025-03-18 12:08:25,157 log Not Found: /media/user_images/trougao.jpg
+WARNING 2025-03-18 12:08:25,157 basehttp "GET /media/user_images/trougao.jpg HTTP/1.1" 404 179
+INFO 2025-03-18 12:08:46,188 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-18 12:08:47,686 log Not Found: /media/user_images/trougao.jpg
+WARNING 2025-03-18 12:08:47,687 basehttp "GET /media/user_images/trougao.jpg HTTP/1.1" 404 179
+INFO 2025-03-18 12:08:48,943 basehttp "GET / HTTP/1.1" 200 3930
+WARNING 2025-03-18 12:08:48,973 log Not Found: /media/qr_codes/qr_code_PVLYlOt.png
+WARNING 2025-03-18 12:08:48,974 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:48,977 log Not Found: /media/qr_codes/qr_code_6gaeg0f.png
+WARNING 2025-03-18 12:08:48,977 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:48,986 log Not Found: /media/qr_codes/qr_code.png
+WARNING 2025-03-18 12:08:48,986 log Not Found: /media/qr_codes/qr_code_bgx4hFM.png
+WARNING 2025-03-18 12:08:48,987 log Not Found: /media/qr_codes/qr_code_ZUE87oC.png
+WARNING 2025-03-18 12:08:48,987 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:48,989 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 404 179
+INFO 2025-03-18 12:08:48,989 basehttp "GET /static/css/dist/styles.css HTTP/1.1" 200 19773
+WARNING 2025-03-18 12:08:48,992 log Not Found: /media/qr_codes/qr_code_Q4Xleil.png
+WARNING 2025-03-18 12:08:48,993 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:48,994 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:49,067 log Not Found: /favicon.ico
+WARNING 2025-03-18 12:08:49,068 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:53,430 log Not Found: /media/user_images/trougao.jpg
+WARNING 2025-03-18 12:08:53,432 basehttp "GET /media/user_images/trougao.jpg HTTP/1.1" 404 179
+WARNING 2025-03-18 12:08:53,460 log Not Found: /favicon.ico
+WARNING 2025-03-18 12:08:53,460 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-03-18 12:10:07,981 autoreload D:\projects\qr\qr\qr\qr\urls.py changed, reloading.
+INFO 2025-03-18 12:10:08,600 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-18 12:10:23,373 log Not Found: /media
+WARNING 2025-03-18 12:10:23,373 basehttp "GET /media HTTP/1.1" 404 179
