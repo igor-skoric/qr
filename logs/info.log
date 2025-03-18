@@ -3365,3 +3365,10 @@ INFO 2025-03-18 14:16:19,338 basehttp "GET /static/vendor/bootstrap/js/bootstrap
 INFO 2025-03-18 14:16:19,359 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js.map HTTP/1.1" 200 129651
 INFO 2025-03-18 14:16:28,408 basehttp "GET / HTTP/1.1" 200 2104
 INFO 2025-03-18 14:16:28,447 basehttp "GET /static/css/dist/styles.css?v=1742303788 HTTP/1.1" 200 20067
+INFO 2025-03-18 14:25:38,799 basehttp "GET / HTTP/1.1" 200 2104
+INFO 2025-03-18 14:25:38,822 basehttp "GET /static/css/dist/styles.css?v=1742304338 HTTP/1.1" 200 20067
+INFO 2025-03-18 14:25:38,822 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+WARNING 2025-03-18 14:25:38,932 log Not Found: /favicon.ico
+WARNING 2025-03-18 14:25:38,932 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 14:26:01,715 basehttp "GET / HTTP/1.1" 200 2104
+INFO 2025-03-18 14:26:01,728 basehttp "GET /static/css/dist/styles.css?v=1742304361 HTTP/1.1" 200 20067
