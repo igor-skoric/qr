@@ -1,0 +1,956 @@
+INFO 2025-03-18 10:50:29,038 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 10:52:19,002 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 10:53:07,589 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 10:53:09,068 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:53:09,101 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'django_browser_reload'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django_browser_reload\middleware.py", line 50, in __call__
+    self.maybe_inject(response)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django_browser_reload\middleware.py", line 82, in maybe_inject
+    response.content = head + django_browser_reload_script() + tag + tail
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django_browser_reload\jinja.py", line 21, in django_browser_reload_script
+    reverse("django_browser_reload:events"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'django_browser_reload' is not a registered namespace
+ERROR 2025-03-18 10:53:09,102 basehttp "GET / HTTP/1.1" 500 93204
+INFO 2025-03-18 10:53:34,650 autoreload D:\projects\qr\qr\qr\qr\urls.py changed, reloading.
+INFO 2025-03-18 10:53:35,313 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 10:53:37,193 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:53:37,197 basehttp "GET / HTTP/1.1" 500 83931
+INFO 2025-03-18 10:53:37,263 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-03-18 10:53:37,383 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2025-03-18 10:54:02,411 autoreload D:\projects\qr\qr\qr\qr\urls.py changed, reloading.
+INFO 2025-03-18 10:54:03,042 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 10:54:03,459 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:54:03,466 basehttp "GET / HTTP/1.1" 500 83951
+ERROR 2025-03-18 10:54:05,096 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:54:05,096 basehttp "GET / HTTP/1.1" 500 84082
+ERROR 2025-03-18 10:54:05,824 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:54:05,825 basehttp "GET / HTTP/1.1" 500 84210
+INFO 2025-03-18 10:54:05,891 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-18 10:54:06,000 log Not Found: /favicon.ico
+WARNING 2025-03-18 10:54:06,000 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 10:54:53,399 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 10:54:55,691 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:54:55,696 basehttp "GET / HTTP/1.1" 500 83794
+ERROR 2025-03-18 10:55:33,007 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:55:33,009 basehttp "GET / HTTP/1.1" 500 83951
+INFO 2025-03-18 10:55:33,039 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 10:55:33,047 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+ERROR 2025-03-18 10:55:37,145 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:55:37,149 basehttp "GET / HTTP/1.1" 500 83951
+ERROR 2025-03-18 10:55:40,076 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 6, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/pages/index.html
+ERROR 2025-03-18 10:55:40,079 basehttp "GET / HTTP/1.1" 500 84082
+INFO 2025-03-18 10:55:58,779 basehttp "GET / HTTP/1.1" 200 587
+WARNING 2025-03-18 10:55:58,834 basehttp "GET /static/css/dist/styles.css?v=1742291758 HTTP/1.1" 404 1997
+INFO 2025-03-18 10:56:02,715 basehttp "GET / HTTP/1.1" 200 587
+WARNING 2025-03-18 10:56:02,734 basehttp "GET /static/css/dist/styles.css?v=1742291762 HTTP/1.1" 404 1997
+INFO 2025-03-18 10:56:02,781 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-18 10:56:02,806 log Not Found: /favicon.ico
+WARNING 2025-03-18 10:56:02,807 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 10:56:17,393 basehttp "GET / HTTP/1.1" 200 593
+WARNING 2025-03-18 10:56:17,431 basehttp "GET /static/css/dist/styles.css?v=1742291777 HTTP/1.1" 404 1997
+INFO 2025-03-18 10:56:48,350 basehttp "GET / HTTP/1.1" 200 612
+WARNING 2025-03-18 10:56:48,374 basehttp "GET /static/css/dist/styles.css?v=1742291808 HTTP/1.1" 404 1997
+INFO 2025-03-18 10:58:13,706 basehttp "GET / HTTP/1.1" 200 631
+WARNING 2025-03-18 10:58:13,736 basehttp "GET /static/css/dist/styles.css?v=1742291893 HTTP/1.1" 404 1997
+INFO 2025-03-18 10:58:13,737 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 10:58:13,745 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 10:58:15,981 basehttp "GET / HTTP/1.1" 200 631
+WARNING 2025-03-18 10:58:16,010 basehttp "GET /static/css/dist/styles.css?v=1742291895 HTTP/1.1" 404 1997
+INFO 2025-03-18 10:58:41,492 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:00:23,035 basehttp "GET / HTTP/1.1" 200 631
+WARNING 2025-03-18 11:00:23,056 basehttp "GET /static/css/dist/styles.css?v=1742292023 HTTP/1.1" 404 1997
+INFO 2025-03-18 11:00:23,057 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:00:23,061 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:06:12,628 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:06:14,880 basehttp "GET / HTTP/1.1" 200 631
+INFO 2025-03-18 11:06:14,898 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:06:15,036 basehttp "GET /static/css/dist/styles.css?v=1742292374 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:06:15,090 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:06:17,577 basehttp "GET / HTTP/1.1" 200 631
+INFO 2025-03-18 11:06:17,606 basehttp "GET /static/css/dist/styles.css?v=1742292377 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:08:16,712 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 11:08:17,682 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:08:17,969 basehttp "GET / HTTP/1.1" 200 631
+INFO 2025-03-18 11:08:18,035 basehttp "GET /static/css/dist/styles.css?v=1742292497 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:09:06,302 autoreload D:\projects\qr\qr\qr\website\admin.py changed, reloading.
+INFO 2025-03-18 11:09:07,068 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:09:07,353 basehttp "GET / HTTP/1.1" 200 631
+INFO 2025-03-18 11:09:07,371 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:09:07,418 basehttp "GET /static/css/dist/styles.css?v=1742292547 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:09:07,426 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:09:34,099 basehttp "GET / HTTP/1.1" 200 664
+INFO 2025-03-18 11:09:34,122 basehttp "GET /static/css/dist/styles.css?v=1742292574 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:10:38,661 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:10:38,689 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3255
+INFO 2025-03-18 11:10:38,709 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-03-18 11:10:38,709 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-03-18 11:10:38,720 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-03-18 11:10:38,731 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-03-18 11:10:38,734 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-18 11:10:38,737 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-03-18 11:10:38,780 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-03-18 11:10:38,824 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-03-18 11:10:42,228 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:10:42,265 basehttp "GET /admin/ HTTP/1.1" 200 15358
+INFO 2025-03-18 11:10:42,316 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-03-18 11:10:42,343 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-03-18 11:10:45,093 basehttp "GET /admin/website/user/ HTTP/1.1" 200 12360
+INFO 2025-03-18 11:10:45,120 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-03-18 11:10:45,130 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-18 11:10:45,131 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-03-18 11:10:45,132 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-18 11:10:45,132 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-03-18 11:10:45,134 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:10:45,151 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-03-18 11:10:45,153 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-18 11:10:45,154 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-03-18 11:10:45,154 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-03-18 11:10:45,155 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-18 11:10:46,555 basehttp "GET /admin/website/user/add/ HTTP/1.1" 200 14348
+INFO 2025-03-18 11:10:46,580 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-03-18 11:10:46,581 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-03-18 11:10:46,585 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:10:46,588 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-03-18 11:10:55,831 basehttp "POST /admin/website/user/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:10:55,856 basehttp "GET /admin/website/user/ HTTP/1.1" 200 15310
+INFO 2025-03-18 11:10:55,916 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:10:57,120 basehttp "GET /admin/website/image/ HTTP/1.1" 200 12367
+INFO 2025-03-18 11:10:57,141 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:10:58,162 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16217
+INFO 2025-03-18 11:10:58,184 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:10:58,184 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-18 11:10:58,192 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-03-18 11:10:58,192 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-18 11:11:13,836 basehttp "POST /admin/website/image/add/ HTTP/1.1" 200 16510
+INFO 2025-03-18 11:11:13,861 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:11:22,246 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:11:22,269 basehttp "GET /admin/website/image/ HTTP/1.1" 200 16289
+INFO 2025-03-18 11:11:22,345 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:11:23,454 basehttp "GET / HTTP/1.1" 200 664
+INFO 2025-03-18 11:11:23,475 basehttp "GET /static/css/dist/styles.css?v=1742292683 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:11:25,175 basehttp "GET / HTTP/1.1" 200 664
+INFO 2025-03-18 11:11:25,197 basehttp "GET /static/css/dist/styles.css?v=1742292685 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:11:25,203 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-18 11:11:25,231 log Not Found: /favicon.ico
+WARNING 2025-03-18 11:11:25,232 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 11:12:49,046 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:12:49,646 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:13:08,495 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:13:09,009 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:13:33,999 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:13:34,488 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:13:36,560 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15713
+INFO 2025-03-18 11:13:36,594 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:13:36,703 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:37,898 basehttp "GET /media/user_images/1.jpg HTTP/1.1" 200 157111
+INFO 2025-03-18 11:13:39,350 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15713
+INFO 2025-03-18 11:13:40,078 basehttp "GET /media/qr_codes/2.jpg HTTP/1.1" 200 153717
+INFO 2025-03-18 11:13:41,020 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15713
+INFO 2025-03-18 11:13:41,817 basehttp "GET /admin/website/image/1/change/ HTTP/1.1" 200 17255
+INFO 2025-03-18 11:13:41,859 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:41,863 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:41,864 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:41,864 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:41,866 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:41,867 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:41,868 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:13:44,919 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14755
+INFO 2025-03-18 11:13:44,939 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:44,939 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:13:44,942 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:13:45,606 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15713
+INFO 2025-03-18 11:13:45,627 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:13:47,164 basehttp "GET /admin/website/image/1/change/ HTTP/1.1" 200 17255
+INFO 2025-03-18 11:13:47,183 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:13:53,312 basehttp "GET / HTTP/1.1" 200 685
+INFO 2025-03-18 11:13:53,346 basehttp "GET /static/css/dist/styles.css?v=1742292833 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:14:57,362 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 11:14:57,928 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:14:58,088 basehttp "GET / HTTP/1.1" 200 685
+INFO 2025-03-18 11:14:58,103 basehttp "GET /media/qr_codes/2.jpg HTTP/1.1" 304 0
+INFO 2025-03-18 11:14:58,108 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:14:58,149 basehttp "GET /static/css/dist/styles.css?v=1742292898 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:15:30,503 basehttp "GET /admin/website/image/1/change/ HTTP/1.1" 200 17261
+INFO 2025-03-18 11:15:30,524 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,524 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,524 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,528 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,529 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,529 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,530 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,532 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,533 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,533 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,533 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:30,613 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,614 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,622 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,622 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,622 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,622 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,632 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:30,632 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:32,364 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14755
+INFO 2025-03-18 11:15:32,381 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:32,382 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:15:33,602 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15719
+INFO 2025-03-18 11:15:33,623 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:37,943 basehttp "POST /admin/website/image/ HTTP/1.1" 200 12313
+INFO 2025-03-18 11:15:37,961 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 564
+INFO 2025-03-18 11:15:38,741 basehttp "POST /admin/website/image/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:15:38,774 basehttp "GET /admin/website/image/ HTTP/1.1" 200 12864
+INFO 2025-03-18 11:15:38,838 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:39,995 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14755
+INFO 2025-03-18 11:15:40,016 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:40,670 basehttp "GET /admin/website/image/ HTTP/1.1" 200 12367
+INFO 2025-03-18 11:15:40,709 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:41,652 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16217
+INFO 2025-03-18 11:15:41,670 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:46,853 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:15:46,868 basehttp "GET /admin/website/image/ HTTP/1.1" 200 16331
+INFO 2025-03-18 11:15:46,897 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:15:48,524 basehttp "GET /media/qr_codes/1.jpg_qr.png HTTP/1.1" 200 455
+INFO 2025-03-18 11:19:14,757 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15749
+INFO 2025-03-18 11:19:21,784 basehttp "GET /media/qr_codes/1.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:19:33,883 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15749
+INFO 2025-03-18 11:19:35,115 basehttp "GET /media/user_images/1_Hhh0RfJ.jpg HTTP/1.1" 200 157111
+INFO 2025-03-18 11:19:59,579 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15749
+INFO 2025-03-18 11:20:01,371 basehttp "GET /admin/website/image/2/change/ HTTP/1.1" 200 17291
+INFO 2025-03-18 11:20:01,392 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,392 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,394 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,394 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,396 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:01,398 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,399 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,399 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,399 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,405 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,406 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,406 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,406 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,407 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,410 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,413 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,463 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,476 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,477 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,478 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,512 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,512 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,513 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,513 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:01,513 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:02,421 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15749
+INFO 2025-03-18 11:20:02,440 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:02,442 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:03,794 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14755
+INFO 2025-03-18 11:20:03,817 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:04,471 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15749
+INFO 2025-03-18 11:20:04,492 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:05,594 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14755
+INFO 2025-03-18 11:20:05,611 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:06,271 basehttp "GET /admin/website/user/1/change/ HTTP/1.1" 200 15055
+INFO 2025-03-18 11:20:06,290 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:08,649 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15749
+INFO 2025-03-18 11:20:08,671 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:09,114 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 19116
+INFO 2025-03-18 11:20:09,133 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-03-18 11:20:09,134 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:13,275 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15749
+INFO 2025-03-18 11:20:13,294 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:20:18,096 basehttp "POST /admin/website/image/ HTTP/1.1" 200 12313
+INFO 2025-03-18 11:20:18,115 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:20:18,881 basehttp "POST /admin/website/image/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:20:18,896 basehttp "GET /admin/website/image/ HTTP/1.1" 200 12864
+INFO 2025-03-18 11:20:18,929 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:21:16,780 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16217
+INFO 2025-03-18 11:21:16,803 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:21:37,083 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:21:37,114 basehttp "GET /admin/website/image/ HTTP/1.1" 200 16319
+INFO 2025-03-18 11:21:37,173 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:21:37,245 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:21:37,245 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:21:45,859 basehttp "GET /media/qr_codes/56.jpg_qr.png HTTP/1.1" 200 448
+INFO 2025-03-18 11:22:02,422 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:22:03,940 basehttp "GET /media/user_images/56.jpg HTTP/1.1" 200 168903
+INFO 2025-03-18 11:22:12,577 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:23:35,288 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 11:23:35,850 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:23:36,042 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:23:36,062 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:23:45,346 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:23:45,923 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:23:46,134 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:23:46,157 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:23:58,535 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:23:59,109 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:23:59,300 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:23:59,314 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,317 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,319 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,320 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,323 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,323 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,326 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:23:59,332 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,332 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,368 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:23:59,368 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:06,679 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:24:07,187 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:24:07,417 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:24:07,449 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,450 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,453 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:24:07,463 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,463 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,463 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,490 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,498 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,498 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:07,498 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:24:54,742 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:24:55,301 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:24:55,496 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:24:55,526 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:25:01,593 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15737
+INFO 2025-03-18 11:25:01,624 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:25:06,103 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16217
+INFO 2025-03-18 11:25:06,130 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:25:06,133 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:25:06,137 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:25:06,137 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:25:06,180 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:25:06,186 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:25:06,187 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:25:20,505 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:25:20,530 basehttp "GET /admin/website/image/ HTTP/1.1" 200 16894
+INFO 2025-03-18 11:25:20,595 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-03-18 11:25:31,550 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 12, in home
+    image = Image.get_last_updated_image_for_user(user)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\models.py", line 50, in get_last_updated_image_for_user
+    return cls.objects.filter(user=user).order_by('-updated_at').first()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1701, in order_by
+    obj.query.add_ordering(*field_names)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\query.py", line 2249, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'updated_at' into field. Choices are: id, image, qr_code, user, user_id
+ERROR 2025-03-18 11:25:31,554 basehttp "GET / HTTP/1.1" 500 88111
+INFO 2025-03-18 11:26:17,038 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 11:26:17,565 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 11:26:17,770 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: website_image.updated_at
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 12, in home
+    image = Image.get_last_updated_image_for_user(user)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\models.py", line 51, in get_last_updated_image_for_user
+    return cls.objects.filter(user=user).order_by('-updated_at').first()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1097, in first
+    for obj in queryset[:1]:
+               ~~~~~~~~^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: website_image.updated_at
+ERROR 2025-03-18 11:26:17,775 basehttp "GET / HTTP/1.1" 500 140027
+INFO 2025-03-18 11:26:22,164 basehttp "GET / HTTP/1.1" 200 693
+INFO 2025-03-18 11:26:22,190 basehttp "GET /media/qr_codes/56.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:26:22,235 basehttp "GET /static/css/dist/styles.css?v=1742293582 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:26:42,410 basehttp "POST /admin/website/image/ HTTP/1.1" 200 12531
+INFO 2025-03-18 11:26:42,433 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:26:45,573 basehttp "POST /admin/website/image/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:26:45,648 basehttp "GET /admin/website/image/ HTTP/1.1" 200 12865
+INFO 2025-03-18 11:26:45,766 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:26:46,887 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16217
+INFO 2025-03-18 11:26:46,912 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:26:51,129 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:26:51,154 basehttp "GET /admin/website/image/ HTTP/1.1" 200 16315
+INFO 2025-03-18 11:26:51,202 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:26:53,940 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16217
+INFO 2025-03-18 11:26:53,959 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:27:00,939 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:27:00,955 basehttp "GET /admin/website/image/ HTTP/1.1" 200 16886
+INFO 2025-03-18 11:27:00,976 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:27:02,635 basehttp "GET / HTTP/1.1" 200 692
+INFO 2025-03-18 11:27:02,657 basehttp "GET /static/css/dist/styles.css?v=1742293622 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:27:02,671 basehttp "GET /media/qr_codes/2.jpg_qr.png HTTP/1.1" 200 454
+INFO 2025-03-18 11:28:34,813 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 19116
+INFO 2025-03-18 11:28:34,843 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,844 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,846 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,849 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,854 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,855 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,858 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,859 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,861 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,862 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,863 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:28:34,880 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,881 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,887 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,887 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,944 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,944 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,944 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,944 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,945 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:34,949 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:28:36,292 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14755
+INFO 2025-03-18 11:28:36,314 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:28:45,315 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 11:28:45,902 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:28:46,094 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14785
+INFO 2025-03-18 11:28:46,115 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:28:48,621 basehttp "GET /admin/website/image/ HTTP/1.1" 200 16334
+INFO 2025-03-18 11:28:48,642 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:28:51,782 basehttp "GET /admin/website/user/ HTTP/1.1" 200 14785
+INFO 2025-03-18 11:28:51,802 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:24,289 autoreload D:\projects\qr\qr\qr\website\admin.py changed, reloading.
+INFO 2025-03-18 11:29:24,889 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:29:25,074 basehttp "GET /admin/website/user/ HTTP/1.1" 200 15589
+INFO 2025-03-18 11:29:25,094 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:34,438 autoreload D:\projects\qr\qr\qr\website\admin.py changed, reloading.
+INFO 2025-03-18 11:29:35,014 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:29:35,192 basehttp "GET / HTTP/1.1" 200 692
+INFO 2025-03-18 11:29:35,238 basehttp "GET /media/qr_codes/2.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:29:35,242 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:29:35,287 basehttp "GET /admin/website/user/ HTTP/1.1" 200 16064
+INFO 2025-03-18 11:29:35,300 basehttp "GET /static/css/dist/styles.css?v=1742293775 HTTP/1.1" 200 18046
+INFO 2025-03-18 11:29:35,326 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:35,360 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:29:36,351 basehttp "GET /admin/website/user/ HTTP/1.1" 200 16064
+INFO 2025-03-18 11:29:36,373 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:37,786 basehttp "GET /admin/website/image/ HTTP/1.1" 200 18266
+INFO 2025-03-18 11:29:37,811 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:48,946 basehttp "GET /admin/website/image/?q=skoric HTTP/1.1" 200 18455
+INFO 2025-03-18 11:29:48,973 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:56,568 basehttp "GET /admin/website/image/?updated_at__gte=2025-03-18+00%3A00%3A00%2B00%3A00&q=skoric HTTP/1.1" 200 18863
+INFO 2025-03-18 11:29:56,600 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:57,330 basehttp "GET /admin/website/image/ HTTP/1.1" 200 18266
+INFO 2025-03-18 11:29:57,351 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:29:57,626 basehttp "GET /admin/website/user/ HTTP/1.1" 200 16064
+INFO 2025-03-18 11:29:57,644 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:02,867 basehttp "GET /admin/website/user/ HTTP/1.1" 200 16064
+INFO 2025-03-18 11:30:02,889 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:03,500 basehttp "GET /admin/website/user/add/ HTTP/1.1" 200 14348
+INFO 2025-03-18 11:30:03,524 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:30:03,525 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:30:03,530 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:30:03,531 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:08,632 basehttp "POST /admin/website/user/add/ HTTP/1.1" 200 14686
+INFO 2025-03-18 11:30:08,655 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:11,147 basehttp "POST /admin/website/user/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:30:11,170 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17237
+INFO 2025-03-18 11:30:11,281 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:12,917 basehttp "GET /admin/website/user/add/ HTTP/1.1" 200 14348
+INFO 2025-03-18 11:30:12,940 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:19,214 basehttp "POST /admin/website/user/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:30:19,232 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17835
+INFO 2025-03-18 11:30:19,300 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:26,064 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19043
+INFO 2025-03-18 11:30:26,094 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:29,603 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16333
+INFO 2025-03-18 11:30:29,628 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:30:29,630 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:29,633 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:30:29,636 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:30:49,167 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:30:49,199 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20327
+INFO 2025-03-18 11:30:49,257 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:30:55,305 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16333
+INFO 2025-03-18 11:30:55,328 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:20,251 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:31:20,305 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21057
+INFO 2025-03-18 11:31:20,363 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:31,437 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:31:31,459 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:34,828 basehttp "GET /admin/website/user/?q=sara HTTP/1.1" 200 16827
+INFO 2025-03-18 11:31:34,850 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:37,096 basehttp "GET /admin/website/user/?q= HTTP/1.1" 200 17417
+INFO 2025-03-18 11:31:37,119 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:38,607 basehttp "GET /admin/website/user/?q=zkat HTTP/1.1" 200 14721
+INFO 2025-03-18 11:31:38,634 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:40,675 basehttp "GET /admin/website/user/?q=zlat HTTP/1.1" 200 16827
+INFO 2025-03-18 11:31:40,697 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:45,587 basehttp "GET /admin/website/user/?q=tno HTTP/1.1" 200 16822
+INFO 2025-03-18 11:31:45,611 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:47,307 basehttp "GET /admin/website/user/?q=21 HTTP/1.1" 200 16816
+INFO 2025-03-18 11:31:47,325 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:31:57,645 basehttp "GET /admin/website/user/?email=bojan2160%40gmail.com&q= HTTP/1.1" 200 16947
+INFO 2025-03-18 11:31:57,683 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:32:04,348 basehttp "GET /admin/website/user/? HTTP/1.1" 200 17265
+INFO 2025-03-18 11:32:04,392 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:32:06,604 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20474
+INFO 2025-03-18 11:32:06,629 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:32:18,067 basehttp "GET /admin/website/image/?q=zlatno HTTP/1.1" 200 18888
+INFO 2025-03-18 11:32:18,091 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:32:31,670 basehttp "GET /media/qr_codes/logo_za_video.jpg_qr.png HTTP/1.1" 200 581
+INFO 2025-03-18 11:32:41,042 basehttp "GET /admin/website/image/?q=zlatno HTTP/1.1" 200 18888
+INFO 2025-03-18 11:32:47,610 basehttp "GET /admin/ HTTP/1.1" 200 22612
+INFO 2025-03-18 11:35:58,183 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:35:58,207 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,213 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,213 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,214 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,214 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,221 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,223 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,224 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,230 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,231 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,231 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,234 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,235 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:35:58,257 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,257 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,313 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,315 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,315 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,317 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,318 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,331 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:35:58,331 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:37:21,455 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:37:21,474 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:37:27,655 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:37:27,673 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:37:36,881 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:37:36,907 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:37:37,924 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:37:37,944 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:38:06,661 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:38:07,195 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:38:07,417 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:38:07,439 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:38:13,649 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 11:38:14,186 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:38:14,410 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:38:14,428 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:38:15,703 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:38:15,990 basehttp "GET /static/css/dist/styles.css?v=1742294295 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:38:15,991 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-03-18 11:38:15,995 basehttp "GET /media/qr_codes/2.jpg_qr.png HTTP/1.1" 200 454
+INFO 2025-03-18 11:38:15,999 basehttp "GET /media/qr_codes/1.jpg_qr.png HTTP/1.1" 200 455
+INFO 2025-03-18 11:38:15,999 basehttp "GET /media/qr_codes/logo_za_video.jpg_qr.png HTTP/1.1" 200 581
+INFO 2025-03-18 11:38:16,001 basehttp "GET /media/qr_codes/ukusi-grcke-1-1.jpg.webp_qr.png HTTP/1.1" 200 753
+WARNING 2025-03-18 11:38:16,009 log Not Found: /favicon.ico
+WARNING 2025-03-18 11:38:16,009 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 11:40:54,120 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:40:54,138 basehttp "GET /media/qr_codes/2.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:40:54,140 basehttp "GET /media/qr_codes/1.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:40:54,141 basehttp "GET /static/css/dist/styles.css?v=1742294454 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:40:54,153 basehttp "GET /media/qr_codes/logo_za_video.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:40:54,160 basehttp "GET /media/qr_codes/ukusi-grcke-1-1.jpg.webp_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:41:08,470 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:41:08,487 basehttp "GET /static/css/dist/styles.css?v=1742294468 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:41:09,509 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:41:09,532 basehttp "GET /static/css/dist/styles.css?v=1742294469 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:41:10,540 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:41:10,553 basehttp "GET /static/css/dist/styles.css?v=1742294470 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:42:14,350 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:42:14,373 basehttp "GET /media/qr_codes/logo_za_video.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:42:14,375 basehttp "GET /static/css/dist/styles.css?v=1742294534 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:42:14,376 basehttp "GET /media/qr_codes/ukusi-grcke-1-1.jpg.webp_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:42:15,365 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:42:15,375 basehttp "GET /static/css/dist/styles.css?v=1742294535 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:42:27,663 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:42:27,691 basehttp "GET /static/css/dist/styles.css?v=1742294547 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:42:27,702 basehttp "GET /media/qr_codes/1.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:42:27,705 basehttp "GET /media/qr_codes/2.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:42:30,736 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:42:30,754 basehttp "GET /static/css/dist/styles.css?v=1742294550 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:48:04,303 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20474
+INFO 2025-03-18 11:48:04,339 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,342 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,347 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,356 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,356 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,357 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,358 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,359 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,360 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,360 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,363 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,363 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,365 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:04,381 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,382 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,416 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,435 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,435 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,445 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,447 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,481 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:04,481 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:08,935 basehttp "GET /admin/website/image/8/change/ HTTP/1.1" 200 17468
+INFO 2025-03-18 11:48:08,959 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:08,959 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:08,959 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:08,964 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:08,965 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:08,967 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:08,968 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:16,799 basehttp "POST /admin/website/image/8/change/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:48:16,817 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21027
+INFO 2025-03-18 11:48:16,845 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:18,039 basehttp "GET /admin/website/image/7/change/ HTTP/1.1" 200 17439
+INFO 2025-03-18 11:48:18,061 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:21,861 basehttp "POST /admin/website/image/7/change/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:48:21,886 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21014
+INFO 2025-03-18 11:48:21,927 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:23,132 basehttp "GET /admin/website/image/6/change/ HTTP/1.1" 200 17391
+INFO 2025-03-18 11:48:23,157 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:23,901 basehttp "GET /media/user_images/2.jpg HTTP/1.1" 200 153717
+INFO 2025-03-18 11:48:26,417 basehttp "GET /admin/website/image/6/change/ HTTP/1.1" 200 17391
+INFO 2025-03-18 11:48:30,081 basehttp "POST /admin/website/image/6/change/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:48:30,114 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21036
+INFO 2025-03-18 11:48:30,192 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:31,624 basehttp "GET / HTTP/1.1" 200 3170
+INFO 2025-03-18 11:48:31,642 basehttp "GET /media/qr_codes/1.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:31,643 basehttp "GET /media/qr_codes/2.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:31,643 basehttp "GET /media/qr_codes/ukusi-grcke-1-1.jpg.webp_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:31,643 basehttp "GET /media/qr_codes/logo_za_video.jpg_qr.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:48:31,644 basehttp "GET /static/css/dist/styles.css?v=1742294911 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:48:46,614 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:48:46,644 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:48:48,048 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20452
+INFO 2025-03-18 11:48:48,071 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:49:00,181 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20452
+INFO 2025-03-18 11:49:02,684 basehttp "GET /media/user_images/krug.jpg HTTP/1.1" 200 52875
+INFO 2025-03-18 11:49:54,311 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 11:49:55,582 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 11:50:03,931 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20452
+INFO 2025-03-18 11:50:04,477 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20452
+INFO 2025-03-18 11:50:04,519 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:07,796 basehttp "GET /media/user_images/krug.jpg HTTP/1.1" 304 0
+INFO 2025-03-18 11:50:10,589 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20452
+INFO 2025-03-18 11:50:12,033 basehttp "GET /admin/website/image/8/change/ HTTP/1.1" 200 17436
+INFO 2025-03-18 11:50:12,058 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:16,685 basehttp "POST /admin/website/image/8/change/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:50:16,712 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21013
+INFO 2025-03-18 11:50:16,767 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:26,409 basehttp "GET /media/user_images/kvadrat.jpg HTTP/1.1" 200 45240
+INFO 2025-03-18 11:50:28,489 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20428
+INFO 2025-03-18 11:50:29,391 basehttp "GET /admin/website/image/7/change/ HTTP/1.1" 200 17427
+INFO 2025-03-18 11:50:29,409 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:36,053 basehttp "POST /admin/website/image/7/change/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:50:36,080 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21018
+INFO 2025-03-18 11:50:36,136 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:40,471 basehttp "GET /media/user_images/pravougaonik.jpg HTTP/1.1" 200 41136
+INFO 2025-03-18 11:50:41,960 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20434
+INFO 2025-03-18 11:50:42,702 basehttp "GET /admin/website/image/6/change/ HTTP/1.1" 200 17413
+INFO 2025-03-18 11:50:42,726 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:46,381 basehttp "POST /admin/website/image/6/change/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:50:46,419 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21048
+INFO 2025-03-18 11:50:46,471 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:48,718 basehttp "GET /admin/website/image/5/change/ HTTP/1.1" 200 17391
+INFO 2025-03-18 11:50:48,741 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:54,362 basehttp "POST /admin/website/image/5/change/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:50:54,383 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21076
+INFO 2025-03-18 11:50:54,448 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:50:56,578 basehttp "GET / HTTP/1.1" 200 3159
+INFO 2025-03-18 11:50:56,613 basehttp "GET /static/css/dist/styles.css?v=1742295056 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:50:56,630 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 200 608
+INFO 2025-03-18 11:50:56,630 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 200 584
+INFO 2025-03-18 11:50:56,630 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 200 578
+INFO 2025-03-18 11:50:56,630 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 200 574
+INFO 2025-03-18 11:51:26,084 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17265
+INFO 2025-03-18 11:51:26,114 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:51:27,743 basehttp "GET /admin/website/user/add/ HTTP/1.1" 200 14348
+INFO 2025-03-18 11:51:27,769 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:51:32,120 basehttp "POST /admin/website/user/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:51:32,140 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18413
+INFO 2025-03-18 11:51:32,191 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:51:33,824 basehttp "GET /admin/website/user/4/change/ HTTP/1.1" 200 15063
+INFO 2025-03-18 11:51:33,845 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:51:34,728 basehttp "GET /admin/website/image/ HTTP/1.1" 200 20653
+INFO 2025-03-18 11:51:34,751 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:51:36,921 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16379
+INFO 2025-03-18 11:51:36,946 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:51:42,889 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:51:42,911 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21910
+INFO 2025-03-18 11:51:42,961 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:51:44,326 basehttp "GET / HTTP/1.1" 200 3647
+INFO 2025-03-18 11:51:44,356 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:51:44,357 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:51:44,358 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:51:44,360 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:51:44,360 basehttp "GET /static/css/dist/styles.css?v=1742295104 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:51:44,364 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 200 599
+INFO 2025-03-18 11:52:19,471 basehttp "GET / HTTP/1.1" 200 3644
+INFO 2025-03-18 11:52:19,488 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:19,488 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:19,488 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:19,490 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:19,491 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:19,492 basehttp "GET /static/css/dist/styles.css?v=1742295139 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:52:26,543 basehttp "GET /admin/website/user/ HTTP/1.1" 200 17847
+INFO 2025-03-18 11:52:26,578 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:52:28,129 basehttp "GET /admin/website/user/add/ HTTP/1.1" 200 14348
+INFO 2025-03-18 11:52:28,168 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:52:32,948 basehttp "POST /admin/website/user/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:52:32,966 basehttp "GET /admin/website/user/ HTTP/1.1" 200 19002
+INFO 2025-03-18 11:52:33,015 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:52:34,129 basehttp "GET /admin/website/image/ HTTP/1.1" 200 21489
+INFO 2025-03-18 11:52:34,155 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:52:38,312 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16426
+INFO 2025-03-18 11:52:38,338 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:52:43,891 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 11:52:43,917 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22753
+INFO 2025-03-18 11:52:43,997 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 11:52:45,876 basehttp "GET / HTTP/1.1" 200 4133
+INFO 2025-03-18 11:52:45,899 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:45,899 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:45,899 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:45,900 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:45,901 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 304 0
+INFO 2025-03-18 11:52:45,901 basehttp "GET /static/css/dist/styles.css?v=1742295165 HTTP/1.1" 200 19773
+INFO 2025-03-18 11:52:45,911 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 200 610
+INFO 2025-03-18 11:52:54,239 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
+INFO 2025-03-18 11:52:54,260 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342

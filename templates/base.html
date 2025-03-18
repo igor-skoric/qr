@@ -1,0 +1,36 @@
+
+{% load static %}
+{% load static tailwind_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Qr - code {% endblock %}</title>
+<!--    <link rel="stylesheet" href="{% static 'css/styles.css' %}">-->
+    {% tailwind_css %}
+</head>
+
+<body class="pt-[150px] sm:pt-[126px]">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">QR Kodovi</h1>
+        </div>
+    </header>
+
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 ItBranch. Sva prava zadržana.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
