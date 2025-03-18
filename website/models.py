@@ -2,10 +2,9 @@ from django.db import models
 import qrcode
 from io import BytesIO
 from django.core.files.uploadedfile import InMemoryUploadedFile
-from django.conf import settings
+from django.contrib.sites.models import Site
 
 
-# Model za korisnika
 class User(models.Model):
     username = models.CharField(max_length=255, unique=True)
     email = models.EmailField()
@@ -22,16 +21,26 @@ class Image(models.Model):
     updated_at = models.DateTimeField(auto_now=True)  # Automatsko ažuriranje prilikom svake izmene
 
     def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+
         # Generisanje QR koda samo ako slika nije prazna
         if self.image:
             qr_code_image = self.generate_qr_code()
             self.qr_code = qr_code_image
 
-        super().save(*args, **kwargs)
+        if self.image:
+            qr_code_image = self.generate_qr_code()
+            self.qr_code.save(f"qr_{self.pk}.png", qr_code_image, save=False)  # Čuvamo QR kod
+            super().save(update_fields=['qr_code'])  # Drugi put sačuvaj samo `qr_code`
+
 
     def generate_qr_code(self):
-        # Generisanje QR koda na osnovu URL-a slike
-        qr_data = self.image.url
+        # Dobijanje domena aplikacije
+        domain = Site.objects.get_current().domain
+        # Generisanje apsolutnog URL-a slike
+        qr_data = f"https://{domain}{self.image.url}"
+
+        # Generisanje QR koda
         qr = qrcode.make(qr_data)
 
         # Spremanje QR koda u memoriji

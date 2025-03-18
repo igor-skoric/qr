@@ -13,17 +13,28 @@
     {% tailwind_css %}
 </head>
 
-<body class="pt-[150px] sm:pt-[126px]">
+<body class="min-h-screen flex flex-col">
     <!-- Header -->
-    <header class="bg-blue-600 text-white py-4">
+    <header class="flex bg-blue-600 text-white py-4 justify-center items-center pr-5">
+        <div class="container mx-auto text-center">
+<!--            <h1 class="text-3xl font-bold">QR Kodovi</h1>-->
+        </div>
         <div class="container mx-auto text-center">
             <h1 class="text-3xl font-bold">QR Kodovi</h1>
         </div>
+        <div class="container mx-auto text-center flex justify-end">
+            <a href="{% url 'admin:index' %}"><h1 class="text-xl font-bold cursor-pointer">login</h1> </a>
+        </div>
+
     </header>
 
+    <main class="min-h-screen flex flex-col">
 
-    {% block content %}
-    {% endblock %}
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
 
     <!-- Footer -->
     <footer class="bg-blue-600 text-white py-4 mt-8">

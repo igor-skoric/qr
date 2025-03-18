@@ -11,6 +11,7 @@ def home(request, user_id = 1):
     # Dobijanje poslednje ažurirane slike korisnika
     image = Image.get_last_updated_image_for_user(user)
     images = Image.objects.all()
+    print(images.first())
     # Kreiraj context sa URL-ovima za sliku i njen QR kod
     context = {
         'images': images,

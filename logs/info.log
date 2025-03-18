@@ -1923,3 +1923,1445 @@ INFO 2025-03-18 12:10:07,981 autoreload D:\projects\qr\qr\qr\qr\urls.py changed,
 INFO 2025-03-18 12:10:08,600 autoreload Watching for file changes with StatReloader
 WARNING 2025-03-18 12:10:23,373 log Not Found: /media
 WARNING 2025-03-18 12:10:23,373 basehttp "GET /media HTTP/1.1" 404 179
+INFO 2025-03-18 13:01:48,668 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:02:21,248 basehttp "GET / HTTP/1.1" 200 3930
+INFO 2025-03-18 13:02:21,255 basehttp "GET / HTTP/1.1" 200 3930
+WARNING 2025-03-18 13:02:21,275 log Not Found: /media/qr_codes/qr_code_PVLYlOt.png
+INFO 2025-03-18 13:02:21,277 basehttp "GET /static/css/dist/styles.css HTTP/1.1" 200 19773
+WARNING 2025-03-18 13:02:21,278 log Not Found: /media/qr_codes/qr_code_6gaeg0f.png
+WARNING 2025-03-18 13:02:21,278 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,279 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,298 log Not Found: /media/qr_codes/qr_code_bgx4hFM.png
+WARNING 2025-03-18 13:02:21,299 log Not Found: /media/qr_codes/qr_code_ZUE87oC.png
+WARNING 2025-03-18 13:02:21,301 log Not Found: /media/qr_codes/qr_code.png
+WARNING 2025-03-18 13:02:21,302 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,303 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,303 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,348 log Not Found: /media/qr_codes/qr_code_PVLYlOt.png
+WARNING 2025-03-18 13:02:21,349 log Not Found: /media/qr_codes/qr_code_6gaeg0f.png
+WARNING 2025-03-18 13:02:21,350 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,350 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,352 log Not Found: /media/qr_codes/qr_code_Q4Xleil.png
+WARNING 2025-03-18 13:02:21,354 log Not Found: /media/qr_codes/qr_code_bgx4hFM.png
+WARNING 2025-03-18 13:02:21,355 log Not Found: /media/qr_codes/qr_code.png
+WARNING 2025-03-18 13:02:21,356 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,356 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,356 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,359 log Not Found: /media/qr_codes/qr_code_Q4Xleil.png
+WARNING 2025-03-18 13:02:21,359 log Not Found: /media/qr_codes/qr_code_ZUE87oC.png
+WARNING 2025-03-18 13:02:21,361 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,361 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,418 log Not Found: /favicon.ico
+WARNING 2025-03-18 13:02:21,419 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-03-18 13:02:21,420 log Not Found: /favicon.ico
+WARNING 2025-03-18 13:02:21,420 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-03-18 13:02:36,439 autoreload D:\projects\qr\qr\qr\qr\settings.py changed, reloading.
+INFO 2025-03-18 13:02:37,005 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:02:37,693 basehttp "GET / HTTP/1.1" 200 4133
+INFO 2025-03-18 13:02:37,971 basehttp "GET /static/css/dist/styles.css?v=1742299357 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:02:37,974 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 200 610
+INFO 2025-03-18 13:02:37,976 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:02:37,984 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 200 608
+INFO 2025-03-18 13:02:37,984 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:02:37,990 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 200 584
+INFO 2025-03-18 13:02:37,994 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 200 578
+INFO 2025-03-18 13:02:37,996 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 200 599
+INFO 2025-03-18 13:02:37,997 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 200 574
+INFO 2025-03-18 13:04:01,321 basehttp "GET /admin/ HTTP/1.1" 200 23263
+INFO 2025-03-18 13:04:01,335 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,335 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,335 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,354 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,355 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,382 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,383 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,383 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,408 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:01,408 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,435 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
+INFO 2025-03-18 13:04:05,479 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,480 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,482 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,482 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,486 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,488 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,489 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,489 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,491 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:04:05,511 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:05,511 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:12,227 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 13:04:12,246 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:04:29,023 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
+INFO 2025-03-18 13:04:29,043 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:04:34,118 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 13:04:34,139 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:04:37,013 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16426
+INFO 2025-03-18 13:04:37,033 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:37,033 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:37,035 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:37,037 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:04:37,043 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:37,045 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 13:04:37,084 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 13:06:42,977 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 13:06:42,996 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:06:43,848 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
+INFO 2025-03-18 13:06:43,871 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:06:44,352 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 13:06:44,369 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:16:34,655 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 13:16:34,702 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:25:30,521 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:25:32,860 basehttp "GET / HTTP/1.1" 200 4133
+INFO 2025-03-18 13:25:32,876 basehttp "GET / HTTP/1.1" 200 4133
+INFO 2025-03-18 13:25:33,150 basehttp "GET /media/qr_codes/qr_code_6gaeg0f.png HTTP/1.1" 200 578
+INFO 2025-03-18 13:25:33,163 basehttp "GET /media/qr_codes/qr_code_Q4Xleil.png HTTP/1.1" 200 610
+INFO 2025-03-18 13:25:33,164 basehttp "GET /static/css/dist/styles.css?v=1742300732 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:25:33,168 basehttp "GET /media/qr_codes/qr_code_PVLYlOt.png HTTP/1.1" 200 608
+INFO 2025-03-18 13:25:33,180 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-03-18 13:25:33,215 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2025-03-18 13:25:33,224 basehttp "GET /media/qr_codes/qr_code_bgx4hFM.png HTTP/1.1" 200 584
+INFO 2025-03-18 13:25:33,225 basehttp "GET /media/qr_codes/qr_code_ZUE87oC.png HTTP/1.1" 200 599
+INFO 2025-03-18 13:25:33,230 basehttp "GET /media/qr_codes/qr_code.png HTTP/1.1" 200 574
+WARNING 2025-03-18 13:25:33,261 log Not Found: /favicon.ico
+WARNING 2025-03-18 13:25:33,262 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 13:26:22,614 basehttp "GET / HTTP/1.1" 200 4485
+INFO 2025-03-18 13:26:22,627 basehttp "GET /static/css/dist/styles.css?v=1742300782 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:26:23,117 basehttp "GET / HTTP/1.1" 200 4485
+INFO 2025-03-18 13:26:23,149 basehttp "GET /static/css/dist/styles.css?v=1742300783 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:28:10,353 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 13:28:10,952 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:28:11,079 basehttp "GET / HTTP/1.1" 200 4485
+INFO 2025-03-18 13:28:11,143 basehttp "GET /static/css/dist/styles.css?v=1742300891 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:28:13,913 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:28:14,093 basehttp "GET / HTTP/1.1" 200 4485
+INFO 2025-03-18 13:28:14,161 basehttp "GET /static/css/dist/styles.css?v=1742300894 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:30:06,531 basehttp "GET / HTTP/1.1" 200 4485
+INFO 2025-03-18 13:30:06,550 basehttp "GET /static/css/dist/styles.css?v=1742301006 HTTP/1.1" 200 19773
+WARNING 2025-03-18 13:30:06,565 log Not Found: /favicon.ico
+WARNING 2025-03-18 13:30:06,565 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 13:30:50,009 basehttp "GET /admin/ HTTP/1.1" 200 23263
+INFO 2025-03-18 13:30:50,036 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-03-18 13:30:50,040 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-03-18 13:30:50,052 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-03-18 13:30:50,060 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-03-18 13:30:50,101 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-03-18 13:30:50,107 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-18 13:30:50,116 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-03-18 13:30:50,122 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-03-18 13:30:50,241 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-03-18 13:30:50,244 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+WARNING 2025-03-18 13:30:50,484 log Not Found: /adin
+WARNING 2025-03-18 13:30:50,484 basehttp "GET /adin HTTP/1.1" 404 3112
+INFO 2025-03-18 13:30:52,505 basehttp "GET /admin/ HTTP/1.1" 200 23263
+INFO 2025-03-18 13:31:37,799 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
+INFO 2025-03-18 13:31:37,848 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-03-18 13:31:37,861 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-18 13:31:37,866 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-18 13:31:37,868 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:31:37,872 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-03-18 13:31:37,882 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-18 13:31:37,882 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-03-18 13:31:37,891 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-03-18 13:31:37,909 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-03-18 13:31:37,932 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-03-18 13:31:37,991 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-18 13:31:38,253 basehttp "GET /admin/website/image/ HTTP/1.1" 200 22168
+INFO 2025-03-18 13:31:38,286 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:31:40,922 basehttp "POST /admin/website/image/ HTTP/1.1" 200 13405
+INFO 2025-03-18 13:31:40,948 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:31:42,064 basehttp "POST /admin/website/image/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:31:42,089 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15379
+INFO 2025-03-18 13:31:42,111 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:31:43,406 basehttp "GET /admin/website/user/ HTTP/1.1" 200 18435
+INFO 2025-03-18 13:31:43,429 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:31:43,931 basehttp "GET /admin/website/image/ HTTP/1.1" 200 14881
+INFO 2025-03-18 13:31:43,950 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:31:45,069 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 16426
+INFO 2025-03-18 13:31:45,113 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:31:45,125 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-18 13:31:45,130 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-03-18 13:31:45,130 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-03-18 13:31:45,210 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-03-18 13:31:45,229 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-18 13:31:45,230 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+ERROR 2025-03-18 13:31:54,879 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 27, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Image.generate_qr_code() missing 1 required positional argument: 'request'
+ERROR 2025-03-18 13:31:54,883 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 133043
+INFO 2025-03-18 13:34:03,681 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 13:34:11,294 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:34:31,768 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:35:12,454 autoreload D:\projects\qr\qr\qr\qr\settings.py changed, reloading.
+INFO 2025-03-18 13:35:13,762 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:35:15,272 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 13:35:17,725 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Image.generate_qr_code() missing 1 required positional argument: 'request'
+ERROR 2025-03-18 13:35:17,730 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 132988
+INFO 2025-03-18 13:35:33,258 autoreload D:\projects\qr\qr\qr\qr\urls.py changed, reloading.
+INFO 2025-03-18 13:35:33,873 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 13:35:34,114 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Image.generate_qr_code() missing 1 required positional argument: 'request'
+ERROR 2025-03-18 13:35:34,120 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 132988
+ERROR 2025-03-18 13:35:36,876 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Image.generate_qr_code() missing 1 required positional argument: 'request'
+ERROR 2025-03-18 13:35:36,878 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 133119
+INFO 2025-03-18 13:35:40,673 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 17037
+INFO 2025-03-18 13:35:41,888 basehttp "GET / HTTP/1.1" 200 1215
+INFO 2025-03-18 13:35:41,956 basehttp "GET /static/css/dist/styles.css?v=1742301341 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:35:43,697 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 17037
+INFO 2025-03-18 13:35:43,738 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:35:44,530 basehttp "GET /admin/website/user/ HTTP/1.1" 200 19046
+INFO 2025-03-18 13:35:44,556 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:35:45,042 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15492
+INFO 2025-03-18 13:35:45,078 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:35:47,267 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 17037
+INFO 2025-03-18 13:35:47,290 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-03-18 13:35:51,907 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Image.generate_qr_code() missing 1 required positional argument: 'request'
+ERROR 2025-03-18 13:35:51,910 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 133119
+INFO 2025-03-18 13:36:03,172 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 13:36:03,913 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 13:36:04,335 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\models.py", line 32, in generate_qr_code
+    domain = Site.objects.get_current().domain
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sites\models.py", line 63, in get_current
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the Django "sites framework" without having set the SITE_ID setting. Create a site in your database and set the SITE_ID setting or pass a request to Site.objects.get_current() to fix this error.
+ERROR 2025-03-18 13:36:04,344 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 141371
+INFO 2025-03-18 13:36:21,723 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 13:36:22,420 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 13:36:22,805 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\models.py", line 33, in generate_qr_code
+    domain = Site.objects.get_current().domain
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sites\models.py", line 63, in get_current
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the Django "sites framework" without having set the SITE_ID setting. Create a site in your database and set the SITE_ID setting or pass a request to Site.objects.get_current() to fix this error.
+ERROR 2025-03-18 13:36:22,812 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 141320
+ERROR 2025-03-18 13:36:26,219 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\models.py", line 33, in generate_qr_code
+    domain = Site.objects.get_current().domain
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sites\models.py", line 63, in get_current
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the Django "sites framework" without having set the SITE_ID setting. Create a site in your database and set the SITE_ID setting or pass a request to Site.objects.get_current() to fix this error.
+ERROR 2025-03-18 13:36:26,221 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 141451
+INFO 2025-03-18 13:37:32,931 autoreload D:\projects\qr\qr\qr\qr\settings.py changed, reloading.
+INFO 2025-03-18 13:37:33,607 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 13:37:34,111 log Internal Server Error: /admin/website/image/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_site
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 26, in save
+    qr_code_image = self.generate_qr_code()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\models.py", line 33, in generate_qr_code
+    domain = Site.objects.get_current().domain
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sites\models.py", line 59, in get_current
+    return self._get_site_by_id(site_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sites\models.py", line 30, in _get_site_by_id
+    site = self.get(pk=site_id)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_site
+ERROR 2025-03-18 13:37:34,120 basehttp "POST /admin/website/image/add/ HTTP/1.1" 500 214339
+INFO 2025-03-18 13:37:53,109 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:37:53,459 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:37:53,524 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19945
+INFO 2025-03-18 13:37:53,608 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:21,612 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19362
+INFO 2025-03-18 13:38:21,631 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:22,661 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19362
+INFO 2025-03-18 13:38:22,697 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:22,948 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-03-18 13:38:22,956 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-03-18 13:38:22,960 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-18 13:38:22,960 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-03-18 13:38:22,973 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-18 13:38:22,979 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-03-18 13:38:22,979 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-03-18 13:38:22,990 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-03-18 13:38:22,991 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-18 13:38:22,998 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-03-18 13:38:23,003 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-03-18 13:38:23,033 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-03-18 13:38:23,042 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-03-18 13:38:23,056 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-03-18 13:38:23,060 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-18 13:38:23,073 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-03-18 13:38:23,074 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-18 13:38:23,082 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-03-18 13:38:23,091 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-03-18 13:38:23,108 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-03-18 13:38:23,110 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-03-18 13:38:23,167 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-03-18 13:38:23,340 basehttp "GET /admin/sites/site/ HTTP/1.1" 200 16590
+INFO 2025-03-18 13:38:23,359 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:24,863 basehttp "GET /admin/sites/site/1/change/ HTTP/1.1" 200 15653
+INFO 2025-03-18 13:38:24,886 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:33,273 basehttp "GET /admin/website/user/ HTTP/1.1" 200 19046
+INFO 2025-03-18 13:38:33,294 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:33,766 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19362
+INFO 2025-03-18 13:38:33,786 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:37,949 basehttp "POST /admin/website/image/ HTTP/1.1" 200 12926
+INFO 2025-03-18 13:38:38,662 basehttp "POST /admin/website/image/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:38:38,683 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15989
+INFO 2025-03-18 13:38:38,740 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:39,642 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 17037
+INFO 2025-03-18 13:38:39,666 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:44,853 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:38:44,883 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19945
+INFO 2025-03-18 13:38:44,943 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:38:50,939 basehttp "GET / HTTP/1.1" 200 1762
+INFO 2025-03-18 13:38:50,965 basehttp "GET /static/css/dist/styles.css?v=1742301530 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:38:50,972 basehttp "GET /media/qr_codes/qr_code_YAeceT1.png HTTP/1.1" 200 737
+WARNING 2025-03-18 13:38:51,017 log Not Found: /favicon.ico
+WARNING 2025-03-18 13:38:51,017 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 13:44:28,398 basehttp "GET / HTTP/1.1" 200 1812
+INFO 2025-03-18 13:44:28,418 basehttp "GET /media/qr_codes/qr_code_YAeceT1.png HTTP/1.1" 304 0
+INFO 2025-03-18 13:44:28,418 basehttp "GET /static/css/dist/styles.css?v=1742301868 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:44:30,690 basehttp "GET / HTTP/1.1" 200 1812
+INFO 2025-03-18 13:44:30,713 basehttp "GET /static/css/dist/styles.css?v=1742301870 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:44:31,978 basehttp "GET / HTTP/1.1" 200 1812
+INFO 2025-03-18 13:44:32,001 basehttp "GET /media/qr_codes/qr_code_YAeceT1.png HTTP/1.1" 200 737
+INFO 2025-03-18 13:44:32,002 basehttp "GET /static/css/dist/styles.css?v=1742301871 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:44:32,002 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-18 13:44:32,019 log Not Found: /favicon.ico
+WARNING 2025-03-18 13:44:32,019 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 13:44:39,780 basehttp "GET / HTTP/1.1" 200 1820
+INFO 2025-03-18 13:44:39,794 basehttp "GET /static/css/dist/styles.css?v=1742301879 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:44:42,862 basehttp "GET / HTTP/1.1" 200 1820
+INFO 2025-03-18 13:44:42,880 basehttp "GET /static/css/dist/styles.css?v=1742301882 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:45:31,230 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 13:45:31,828 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:45:31,960 basehttp "GET / HTTP/1.1" 200 1820
+INFO 2025-03-18 13:45:31,975 basehttp "GET /media/qr_codes/qr_code_YAeceT1.png HTTP/1.1" 304 0
+INFO 2025-03-18 13:45:32,017 basehttp "GET /static/css/dist/styles.css?v=1742301931 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:45:33,989 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:45:34,242 basehttp "GET / HTTP/1.1" 200 1820
+INFO 2025-03-18 13:45:34,297 basehttp "GET /static/css/dist/styles.css?v=1742301934 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:45:37,505 basehttp "GET / HTTP/1.1" 200 1820
+INFO 2025-03-18 13:45:37,528 basehttp "GET /static/css/dist/styles.css?v=1742301937 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:46:06,209 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 13:46:06,819 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:46:06,964 basehttp "GET / HTTP/1.1" 200 1820
+INFO 2025-03-18 13:46:07,021 basehttp "GET /static/css/dist/styles.css?v=1742301966 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:46:21,448 autoreload D:\projects\qr\qr\qr\website\views.py changed, reloading.
+INFO 2025-03-18 13:46:22,128 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:46:22,260 basehttp "GET / HTTP/1.1" 200 1848
+INFO 2025-03-18 13:46:22,274 basehttp "GET /media/qr_codes/qr_code_YAeceT1.png HTTP/1.1" 304 0
+INFO 2025-03-18 13:46:22,313 basehttp "GET /static/css/dist/styles.css?v=1742301982 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:46:26,574 basehttp "GET / HTTP/1.1" 200 1841
+WARNING 2025-03-18 13:46:26,595 log Not Found: /user_images/krug_8kaDuHp.jpg
+WARNING 2025-03-18 13:46:26,595 basehttp "GET /user_images/krug_8kaDuHp.jpg HTTP/1.1" 404 3184
+INFO 2025-03-18 13:46:26,596 basehttp "GET /static/css/dist/styles.css?v=1742301986 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:46:28,690 basehttp "GET / HTTP/1.1" 200 1841
+WARNING 2025-03-18 13:46:28,719 log Not Found: /user_images/krug_8kaDuHp.jpg
+WARNING 2025-03-18 13:46:28,719 basehttp "GET /user_images/krug_8kaDuHp.jpg HTTP/1.1" 404 3184
+INFO 2025-03-18 13:46:28,720 basehttp "GET /static/css/dist/styles.css?v=1742301988 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:46:36,831 basehttp "GET / HTTP/1.1" 200 1848
+INFO 2025-03-18 13:46:36,850 basehttp "GET /static/css/dist/styles.css?v=1742301996 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:46:40,973 basehttp "GET / HTTP/1.1" 200 1702
+INFO 2025-03-18 13:46:40,992 basehttp "GET /static/css/dist/styles.css?v=1742302000 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:47:43,489 basehttp "POST /admin/website/image/ HTTP/1.1" 200 12926
+INFO 2025-03-18 13:47:44,384 basehttp "POST /admin/website/image/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:47:44,428 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15989
+INFO 2025-03-18 13:47:44,482 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:47:51,275 basehttp "GET / HTTP/1.1" 200 1215
+INFO 2025-03-18 13:47:51,297 basehttp "GET /static/css/dist/styles.css?v=1742302071 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:48:08,360 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:48:10,215 basehttp "GET / HTTP/1.1" 200 1215
+INFO 2025-03-18 13:48:10,280 basehttp "GET /static/css/dist/styles.css?v=1742302090 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:48:10,289 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:48:11,746 basehttp "GET / HTTP/1.1" 200 1215
+INFO 2025-03-18 13:48:11,764 basehttp "GET /static/css/dist/styles.css?v=1742302091 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:48:14,787 basehttp "GET /admin/ HTTP/1.1" 200 23343
+INFO 2025-03-18 13:48:38,415 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15492
+INFO 2025-03-18 13:48:38,469 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:48:40,318 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 17037
+INFO 2025-03-18 13:48:40,354 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:53:31,053 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:53:35,509 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15492
+INFO 2025-03-18 13:53:35,538 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:53:38,812 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15492
+INFO 2025-03-18 13:53:38,835 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:53:40,410 basehttp "GET /admin/website/user/ HTTP/1.1" 200 19046
+INFO 2025-03-18 13:53:40,431 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:53:42,099 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15492
+INFO 2025-03-18 13:53:42,114 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:53:44,107 basehttp "GET / HTTP/1.1" 200 1215
+INFO 2025-03-18 13:53:44,172 basehttp "GET /static/css/dist/styles.css?v=1742302424 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:54:38,717 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:54:42,554 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:54:42,995 basehttp "GET / HTTP/1.1" 200 1215
+INFO 2025-03-18 13:54:43,279 basehttp "GET /static/css/dist/styles.css?v=1742302482 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:54:44,182 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 17037
+INFO 2025-03-18 13:54:44,209 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:54:44,212 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 13:54:44,220 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:54:44,220 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:54:44,244 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 13:54:44,244 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:54:44,260 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-18 13:55:29,963 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:55:30,349 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19945
+INFO 2025-03-18 13:55:30,406 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:56:56,538 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 13:56:58,335 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:56:59,990 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19362
+INFO 2025-03-18 13:57:00,022 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,022 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,022 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,036 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,037 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,043 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,046 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,068 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:57:00,068 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,068 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,078 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,078 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,083 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,090 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,091 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,107 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,108 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,115 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:57:00,115 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:58:00,763 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 13:58:02,505 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 13:58:04,006 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19362
+INFO 2025-03-18 13:58:04,057 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:58:04,148 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 13:58:04,150 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-18 13:58:31,693 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19362
+INFO 2025-03-18 13:58:31,733 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:58:35,218 basehttp "POST /admin/website/image/ HTTP/1.1" 200 12926
+INFO 2025-03-18 13:58:35,235 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-03-18 13:58:35,985 basehttp "POST /admin/website/image/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:58:36,207 basehttp "GET /admin/website/image/ HTTP/1.1" 200 15989
+INFO 2025-03-18 13:58:36,248 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:58:37,994 basehttp "GET /admin/website/image/add/ HTTP/1.1" 200 17037
+INFO 2025-03-18 13:58:38,043 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:58:55,026 basehttp "POST /admin/website/image/add/ HTTP/1.1" 302 0
+INFO 2025-03-18 13:58:55,168 basehttp "GET /admin/website/image/ HTTP/1.1" 200 19925
+INFO 2025-03-18 13:58:55,221 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-18 13:58:58,091 basehttp "GET / HTTP/1.1" 200 1692
+INFO 2025-03-18 13:58:58,179 basehttp "GET /static/css/dist/styles.css?v=1742302738 HTTP/1.1" 200 19773
+INFO 2025-03-18 13:58:58,184 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 200 835
+INFO 2025-03-18 13:59:30,776 basehttp "GET /media/user_images/krug_jPO5Bbv.jpg HTTP/1.1" 200 52875
+INFO 2025-03-18 14:00:07,701 autoreload D:\projects\qr\qr\qr\website\models.py changed, reloading.
+INFO 2025-03-18 14:00:09,535 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 14:00:10,188 basehttp "GET / HTTP/1.1" 200 1692
+INFO 2025-03-18 14:00:10,207 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:00:10,255 basehttp "GET /static/css/dist/styles.css?v=1742302810 HTTP/1.1" 200 19773
+INFO 2025-03-18 14:04:06,914 basehttp "GET / HTTP/1.1" 200 1668
+INFO 2025-03-18 14:04:06,933 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:04:06,935 basehttp "GET /static/css/dist/styles.css?v=1742303046 HTTP/1.1" 200 19773
+INFO 2025-03-18 14:04:06,940 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-03-18 14:04:13,949 autoreload Watching for file changes with StatReloader
+INFO 2025-03-18 14:04:14,136 basehttp "GET / HTTP/1.1" 200 1668
+INFO 2025-03-18 14:04:14,260 basehttp "GET /static/css/dist/styles.css?v=1742303054 HTTP/1.1" 200 19773
+WARNING 2025-03-18 14:04:14,322 log Not Found: /favicon.ico
+WARNING 2025-03-18 14:04:14,322 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 14:04:18,473 basehttp "GET / HTTP/1.1" 200 1668
+INFO 2025-03-18 14:04:18,495 basehttp "GET /static/css/dist/styles.css?v=1742303058 HTTP/1.1" 200 19578
+INFO 2025-03-18 14:04:49,481 basehttp "GET / HTTP/1.1" 200 1677
+INFO 2025-03-18 14:04:49,502 basehttp "GET /static/css/dist/styles.css?v=1742303089 HTTP/1.1" 200 19578
+INFO 2025-03-18 14:04:49,503 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+WARNING 2025-03-18 14:04:49,628 log Not Found: /favicon.ico
+WARNING 2025-03-18 14:04:49,629 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 14:04:53,603 basehttp "GET / HTTP/1.1" 200 1677
+INFO 2025-03-18 14:04:53,623 basehttp "GET /static/css/dist/styles.css?v=1742303093 HTTP/1.1" 200 19608
+INFO 2025-03-18 14:04:54,131 basehttp "GET / HTTP/1.1" 200 1677
+INFO 2025-03-18 14:04:54,150 basehttp "GET /static/css/dist/styles.css?v=1742303094 HTTP/1.1" 200 19608
+INFO 2025-03-18 14:04:58,767 basehttp "GET / HTTP/1.1" 200 1686
+INFO 2025-03-18 14:04:58,797 basehttp "GET /static/css/dist/styles.css?v=1742303098 HTTP/1.1" 200 19645
+INFO 2025-03-18 14:04:59,001 basehttp "GET / HTTP/1.1" 200 1686
+INFO 2025-03-18 14:04:59,030 basehttp "GET /static/css/dist/styles.css?v=1742303098 HTTP/1.1" 304 0
+INFO 2025-03-18 14:05:00,007 basehttp "GET / HTTP/1.1" 200 1686
+INFO 2025-03-18 14:05:00,032 basehttp "GET /static/css/dist/styles.css?v=1742303100 HTTP/1.1" 200 19645
+INFO 2025-03-18 14:05:00,037 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 200 835
+INFO 2025-03-18 14:05:00,037 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-18 14:05:00,049 log Not Found: /favicon.ico
+WARNING 2025-03-18 14:05:00,050 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 14:05:03,893 basehttp "GET / HTTP/1.1" 200 1686
+INFO 2025-03-18 14:05:03,917 basehttp "GET /static/css/dist/styles.css?v=1742303103 HTTP/1.1" 200 19682
+INFO 2025-03-18 14:05:04,963 basehttp "GET / HTTP/1.1" 200 1686
+INFO 2025-03-18 14:05:04,985 basehttp "GET /static/css/dist/styles.css?v=1742303104 HTTP/1.1" 200 19682
+INFO 2025-03-18 14:05:08,014 basehttp "GET / HTTP/1.1" 200 1693
+INFO 2025-03-18 14:05:08,044 basehttp "GET /static/css/dist/styles.css?v=1742303108 HTTP/1.1" 200 19710
+INFO 2025-03-18 14:05:09,066 basehttp "GET / HTTP/1.1" 200 1693
+INFO 2025-03-18 14:05:09,083 basehttp "GET /static/css/dist/styles.css?v=1742303109 HTTP/1.1" 200 19710
+INFO 2025-03-18 14:05:38,997 basehttp "GET / HTTP/1.1" 200 7717
+INFO 2025-03-18 14:05:39,035 basehttp "GET /static/css/dist/styles.css?v=1742303138 HTTP/1.1" 200 19710
+INFO 2025-03-18 14:05:39,112 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:06:17,194 basehttp "GET / HTTP/1.1" 200 1693
+INFO 2025-03-18 14:06:17,208 basehttp "GET /static/css/dist/styles.css?v=1742303177 HTTP/1.1" 200 19710
+INFO 2025-03-18 14:06:20,276 basehttp "GET / HTTP/1.1" 200 1677
+INFO 2025-03-18 14:06:20,296 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:06:20,296 basehttp "GET /static/css/dist/styles.css?v=1742303180 HTTP/1.1" 200 19710
+INFO 2025-03-18 14:06:20,535 basehttp "GET / HTTP/1.1" 200 1677
+INFO 2025-03-18 14:07:20,128 basehttp "GET / HTTP/1.1" 200 1695
+INFO 2025-03-18 14:07:20,151 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:07:20,166 basehttp "GET /static/css/dist/styles.css?v=1742303240 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:07:20,173 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-03-18 14:07:21,154 basehttp "GET / HTTP/1.1" 200 1695
+INFO 2025-03-18 14:07:21,170 basehttp "GET /static/css/dist/styles.css?v=1742303241 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:07:32,468 basehttp "GET / HTTP/1.1" 200 1682
+INFO 2025-03-18 14:07:32,482 basehttp "GET /static/css/dist/styles.css?v=1742303252 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:07:33,229 basehttp "GET / HTTP/1.1" 200 1682
+INFO 2025-03-18 14:07:33,251 basehttp "GET /static/css/dist/styles.css?v=1742303253 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:07:40,731 basehttp "GET / HTTP/1.1" 200 1649
+INFO 2025-03-18 14:07:40,749 basehttp "GET /static/css/dist/styles.css?v=1742303260 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:08:57,012 basehttp "GET / HTTP/1.1" 200 1679
+INFO 2025-03-18 14:08:57,043 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:08:57,044 basehttp "GET /static/css/dist/styles.css?v=1742303337 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:09:02,157 basehttp "GET / HTTP/1.1" 200 1699
+INFO 2025-03-18 14:09:02,195 basehttp "GET /static/css/dist/styles.css?v=1742303342 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:09:05,473 basehttp "GET / HTTP/1.1" 200 1699
+INFO 2025-03-18 14:09:05,495 basehttp "GET /static/css/dist/styles.css?v=1742303345 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:09:06,367 basehttp "GET / HTTP/1.1" 200 1699
+INFO 2025-03-18 14:09:06,385 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 200 835
+INFO 2025-03-18 14:09:06,385 basehttp "GET /static/css/dist/styles.css?v=1742303346 HTTP/1.1" 200 19791
+INFO 2025-03-18 14:09:06,385 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-18 14:09:06,403 log Not Found: /favicon.ico
+WARNING 2025-03-18 14:09:06,403 basehttp "GET /favicon.ico HTTP/1.1" 404 3133
+INFO 2025-03-18 14:09:19,674 basehttp "GET / HTTP/1.1" 200 1692
+INFO 2025-03-18 14:09:19,714 basehttp "GET /static/css/dist/styles.css?v=1742303359 HTTP/1.1" 200 19883
+ERROR 2025-03-18 14:09:25,928 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+ERROR 2025-03-18 14:09:25,934 basehttp "GET / HTTP/1.1" 500 163879
+INFO 2025-03-18 14:09:34,295 basehttp "GET / HTTP/1.1" 200 1722
+INFO 2025-03-18 14:09:34,323 basehttp "GET /static/css/dist/styles.css?v=1742303374 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:09:53,906 basehttp "GET / HTTP/1.1" 200 1732
+INFO 2025-03-18 14:09:53,929 basehttp "GET /static/css/dist/styles.css?v=1742303393 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:10:01,158 basehttp "GET / HTTP/1.1" 200 1758
+INFO 2025-03-18 14:10:01,167 basehttp "GET /static/css/dist/styles.css?v=1742303401 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:10:08,916 basehttp "GET /static/css/dist/styles.css?v=1742303401 HTTP/1.1" 304 0
+INFO 2025-03-18 14:12:26,347 basehttp "GET / HTTP/1.1" 200 1767
+INFO 2025-03-18 14:12:26,376 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:12:26,376 basehttp "GET /static/css/dist/styles.css?v=1742303546 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:12:42,879 basehttp "GET / HTTP/1.1" 200 2009
+INFO 2025-03-18 14:12:42,911 basehttp "GET /static/css/dist/styles.css?v=1742303562 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:12:48,040 basehttp "GET / HTTP/1.1" 200 2014
+INFO 2025-03-18 14:12:48,057 basehttp "GET /static/css/dist/styles.css?v=1742303568 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:12:52,167 basehttp "GET / HTTP/1.1" 200 2021
+INFO 2025-03-18 14:12:52,185 basehttp "GET /static/css/dist/styles.css?v=1742303572 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:12:57,332 basehttp "GET / HTTP/1.1" 200 2017
+INFO 2025-03-18 14:12:57,362 basehttp "GET /static/css/dist/styles.css?v=1742303577 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:13:01,449 basehttp "GET / HTTP/1.1" 200 2016
+INFO 2025-03-18 14:13:01,461 basehttp "GET /static/css/dist/styles.css?v=1742303581 HTTP/1.1" 200 19883
+INFO 2025-03-18 14:13:02,515 basehttp "GET / HTTP/1.1" 200 2016
+INFO 2025-03-18 14:13:02,573 basehttp "GET /static/css/dist/styles.css?v=1742303582 HTTP/1.1" 200 19943
+INFO 2025-03-18 14:13:13,849 basehttp "GET / HTTP/1.1" 200 2031
+INFO 2025-03-18 14:13:13,866 basehttp "GET /static/css/dist/styles.css?v=1742303593 HTTP/1.1" 200 19943
+INFO 2025-03-18 14:13:17,985 basehttp "GET / HTTP/1.1" 200 2044
+INFO 2025-03-18 14:13:18,000 basehttp "GET /static/css/dist/styles.css?v=1742303597 HTTP/1.1" 200 19943
+INFO 2025-03-18 14:13:21,124 basehttp "GET / HTTP/1.1" 200 2044
+INFO 2025-03-18 14:13:21,145 basehttp "GET /static/css/dist/styles.css?v=1742303601 HTTP/1.1" 200 19943
+INFO 2025-03-18 14:13:40,755 basehttp "GET / HTTP/1.1" 200 2056
+INFO 2025-03-18 14:13:40,794 basehttp "GET /static/css/dist/styles.css?v=1742303620 HTTP/1.1" 200 19990
+INFO 2025-03-18 14:13:41,857 basehttp "GET / HTTP/1.1" 200 2056
+INFO 2025-03-18 14:13:41,878 basehttp "GET /static/css/dist/styles.css?v=1742303621 HTTP/1.1" 200 19990
+INFO 2025-03-18 14:13:49,017 basehttp "GET / HTTP/1.1" 200 2061
+INFO 2025-03-18 14:13:49,034 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:13:49,035 basehttp "GET /static/css/dist/styles.css?v=1742303629 HTTP/1.1" 200 19990
+INFO 2025-03-18 14:13:49,259 basehttp "GET / HTTP/1.1" 200 2061
+INFO 2025-03-18 14:14:00,325 basehttp "GET / HTTP/1.1" 200 2066
+INFO 2025-03-18 14:14:00,341 basehttp "GET /static/css/dist/styles.css?v=1742303640 HTTP/1.1" 200 19990
+INFO 2025-03-18 14:14:01,353 basehttp "GET / HTTP/1.1" 200 2066
+INFO 2025-03-18 14:14:01,385 basehttp "GET /static/css/dist/styles.css?v=1742303641 HTTP/1.1" 200 20027
+INFO 2025-03-18 14:14:15,785 basehttp "GET / HTTP/1.1" 200 2081
+INFO 2025-03-18 14:14:15,815 basehttp "GET /static/css/dist/styles.css?v=1742303655 HTTP/1.1" 200 20067
+ERROR 2025-03-18 14:14:42,602 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2025-03-18 14:14:42,605 basehttp "GET / HTTP/1.1" 500 138351
+INFO 2025-03-18 14:14:56,892 autoreload D:\projects\qr\qr\qr\qr\urls.py changed, reloading.
+INFO 2025-03-18 14:14:57,421 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-18 14:14:57,637 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2025-03-18 14:14:57,641 basehttp "GET / HTTP/1.1" 500 138482
+ERROR 2025-03-18 14:14:57,893 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2025-03-18 14:14:57,896 basehttp "GET / HTTP/1.1" 500 138482
+ERROR 2025-03-18 14:14:58,972 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2025-03-18 14:14:58,975 basehttp "GET / HTTP/1.1" 500 138482
+ERROR 2025-03-18 14:15:15,339 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '/admin' not found. '/admin' is not a valid view function or pattern name.
+ERROR 2025-03-18 14:15:15,341 basehttp "GET / HTTP/1.1" 500 138375
+ERROR 2025-03-18 14:15:16,846 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '/admin' not found. '/admin' is not a valid view function or pattern name.
+ERROR 2025-03-18 14:15:16,849 basehttp "GET / HTTP/1.1" 500 138506
+ERROR 2025-03-18 14:16:14,208 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 22, in home
+    return render(request, 'website/pages/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2025-03-18 14:16:14,210 basehttp "GET / HTTP/1.1" 500 139118
+INFO 2025-03-18 14:16:17,227 basehttp "GET / HTTP/1.1" 200 2104
+INFO 2025-03-18 14:16:17,242 basehttp "GET /media/qr_codes/qr_14.png HTTP/1.1" 304 0
+INFO 2025-03-18 14:16:17,296 basehttp "GET /static/css/dist/styles.css?v=1742303777 HTTP/1.1" 200 20067
+INFO 2025-03-18 14:16:19,095 basehttp "GET /admin/ HTTP/1.1" 200 23729
+INFO 2025-03-18 14:16:19,274 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css.map HTTP/1.1" 200 3783134
+INFO 2025-03-18 14:16:19,338 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 187646
+INFO 2025-03-18 14:16:19,359 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js.map HTTP/1.1" 200 129651
+INFO 2025-03-18 14:16:28,408 basehttp "GET / HTTP/1.1" 200 2104
+INFO 2025-03-18 14:16:28,447 basehttp "GET /static/css/dist/styles.css?v=1742303788 HTTP/1.1" 200 20067
