@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'tailwind',
+    'theme',
     'jazzmin',
     'website',
     'django.contrib.admin',
@@ -40,8 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tailwind',
-    'theme',
     'django_browser_reload',
     'django.contrib.sites',
 ]
@@ -116,7 +116,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
+
+TIME_ZONE = 'Europe/Belgrade'
+
 
 USE_I18N = True
 

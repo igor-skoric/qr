@@ -1,27 +1,20 @@
 from django.contrib import admin
-from .models import User, Image
-
-# Admin panel za User model
-
-class UserAdmin(admin.ModelAdmin):
-    # Omogućavamo pretragu po poljima
-    search_fields = ['username', 'email']
-    list_display = ('username', 'email')
-    list_filter = ('email',)  # Filtriranje po emailu, po potrebi možeš dodati i druge filtre
-
-admin.site.register(User, UserAdmin)
+from django.utils.safestring import mark_safe
+from .models import Image
 
 
-# Admin panel za Image model
 class ImageAdmin(admin.ModelAdmin):
-    # Omogućavamo pretragu po korisniku
-    search_fields = ['user__username', 'user__email', 'updated_at']
+    list_display = ('image_preview', 'image', 'qr_code', 'created_at')
+    ordering = ('-created_at',)
 
-    # Prikazujemo slike u listi admin panela
-    list_display = ('user', 'image', 'qr_code', 'updated_at')
+    # Dodavanje prilagođenog template-a za listu objekata
+    change_list_template = 'admin/image_change_list.html'
 
-    # Omogućavamo filtriranje po korisniku i datumu ažuriranja
-    list_filter = ('user', 'updated_at')
+    def image_preview(self, obj):
+        if obj.image:
+            return mark_safe(f'<img src="{obj.image.url}" width="200" />')
+        return 'No image'
+    image_preview.short_description = 'Image Preview'
 
 
 admin.site.register(Image, ImageAdmin)

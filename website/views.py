@@ -1,22 +1,42 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Image, User
+from .models import Image
+from django.contrib.auth.decorators import login_required
 
 
-# View za prikaz slike i njenog QR koda
-def home(request, user_id = 1):
+@login_required(login_url='/admin/login/')
+def home(request):
 
-    # Dobijanje slike na osnovu njenog ID-a
-    user = get_object_or_404(User, id=user_id)
-
-    # Dobijanje poslednje ažurirane slike korisnika
-    image = Image.get_last_updated_image_for_user(user)
-    images = Image.objects.all()
-    print(images.first())
-    # Kreiraj context sa URL-ovima za sliku i njen QR kod
+    last_image = Image.objects.all().order_by('-created_at').first()
+    title = "Poslednja slika"
     context = {
-        'images': images,
-        # 'image_url': image.image.url,  # URL slike
-        # 'qr_code_url': image.qr_code.url,  # URL QR koda
+        'last_image': last_image,
+        'title': title
+    }
+
+    return render(request, 'website/pages/index.html', context)
+
+
+@login_required(login_url='/admin/login/')
+def all_codes(request):
+
+    images = Image.objects.all().order_by('-created_at')
+
+    context = {
+        'images': images
+    }
+
+    return render(request, 'website/pages/all_codes.html', context)
+
+
+@login_required(login_url='/admin/login/')
+def code(request, pk):
+
+    last_image = Image.objects.get(id=pk)
+    title = "Izabrana slika iz liste slika"
+
+    context = {
+        'last_image': last_image,
+        'title': title
     }
 
     return render(request, 'website/pages/index.html', context)

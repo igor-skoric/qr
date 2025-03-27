@@ -5,28 +5,16 @@ from django.core.files.uploadedfile import InMemoryUploadedFile
 from django.contrib.sites.models import Site
 
 
-class User(models.Model):
-    username = models.CharField(max_length=255, unique=True)
-    email = models.EmailField()
-
-    def __str__(self):
-        return self.email
-
-
-# Model za sliku
 class Image(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="images")
     image = models.ImageField(upload_to='user_images/')
     qr_code = models.ImageField(upload_to='qr_codes/', blank=True, null=True)
     updated_at = models.DateTimeField(auto_now=True)  # Automatsko ažuriranje prilikom svake izmene
+    created_at = models.DateTimeField(auto_now_add=True)
 
     def save(self, *args, **kwargs):
         super().save(*args, **kwargs)
 
         # Generisanje QR koda samo ako slika nije prazna
-        if self.image:
-            qr_code_image = self.generate_qr_code()
-            self.qr_code = qr_code_image
 
         if self.image:
             qr_code_image = self.generate_qr_code()
@@ -54,11 +42,4 @@ class Image(models.Model):
         return qr_file
 
     def __str__(self):
-        return f"Slika korisnika {self.user.username} - QR kod"
-
-    @classmethod
-    def get_last_updated_image_for_user(cls, user):
-        """
-        Vraća poslednju ažuriranu sliku za korisnika
-        """
-        return cls.objects.filter(user=user).order_by('-updated_at').first()
+        return f"Image {self.id}"

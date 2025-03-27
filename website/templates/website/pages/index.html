@@ -2,20 +2,8 @@
 
 {% block content %}
 
-    <!-- Main Content -->
-    <main class="container mx-auto py-8">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {% for image in images %}
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h2 class="text-center text-lg font-semibold mb-4">QR Kod za {{ image.user.username }}</h2>
-                    <div class="flex justify-center mb-4">
-                        <img src="{{ image.qr_code.url }}" alt="QR Kod" class="w-32 h-32">
-                    </div>
-                    <p class="text-center text-sm text-gray-600">Poslednja ažurirana slika korisnika.</p>
-                </div>
-            {% endfor %}
-        </div>
-    </main>
+<h1 class="mt-10 text-center text-4xl text-bold">{{title}}</h1>
+{% include 'website/components/last_code.html' %}
 
 
 {% endblock %}

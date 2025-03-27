@@ -14,34 +14,19 @@
 </head>
 
 <body class="min-h-screen flex flex-col">
-    <!-- Header -->
-    <header class="flex bg-blue-600 text-white py-4 justify-center items-center pr-5">
-        <div class="container mx-auto text-center">
-<!--            <h1 class="text-3xl font-bold">QR Kodovi</h1>-->
-        </div>
-        <div class="container mx-auto text-center">
-            <h1 class="text-3xl font-bold">QR Kodovi</h1>
-        </div>
-        <div class="container mx-auto text-center flex justify-end">
-            <a href="{% url 'admin:index' %}"><h1 class="text-xl font-bold cursor-pointer">login</h1> </a>
-        </div>
 
-    </header>
+    {% include 'header.html' %}
 
-    <main class="min-h-screen flex flex-col">
+    <main class="min-h-screen">
+        <div class="mt-[100px]"></div>
 
         {% block content %}
         {% endblock %}
 
     </main>
 
+    {% include 'footer.html' %}
 
-    <!-- Footer -->
-    <footer class="bg-blue-600 text-white py-4 mt-8">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2025 ItBranch. Sva prava zadržana.</p>
-        </div>
-    </footer>
 </body>
 
 </html>

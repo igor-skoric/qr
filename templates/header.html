@@ -1,0 +1,156 @@
+<!--    &lt;!&ndash; Header &ndash;&gt;-->
+<!--    <header class="flex bg-gray-500 text-white py-4 justify-center items-center pr-5">-->
+<!--        <div class="container mx-auto text-center">-->
+<!--            <h1 class="text-3xl font-bold">QR Kodovi</h1>-->
+<!--        </div>-->
+<!--        <div class="container mx-auto text-center flex gap-5">-->
+<!--            <a href="{% url 'admin:website_image_changelist' %}">-->
+<!--                <h1 class="text-xl font-bold cursor-pointer">Admin</h1>-->
+<!--            </a>-->
+<!--            <a href="{% url 'home' %}">-->
+<!--                <h1 class="text-xl font-bold cursor-pointer">Poslednji QR</h1>-->
+<!--            </a>-->
+<!--            <a href="{% url 'all_codes' %}">-->
+<!--                <h1 class="text-xl font-bold cursor-pointer">Svi QR</h1>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="container mx-auto text-center flex justify-end">-->
+<!--            {% if user.is_authenticated %}-->
+<!--                   <form action="{% url 'admin:logout' %}" method="post" style="display: inline;">-->
+<!--                        {% csrf_token %}-->
+<!--                        <button type="submit" class="btn btn-danger">Logout</button>-->
+<!--                    </form>-->
+<!--                {% else %}-->
+<!--                <a href="{% url 'admin:index' %}">-->
+<!--                    <h1 class="text-xl font-bold cursor-pointer">login</h1>-->
+<!--                </a>-->
+<!--            {% endif %}-->
+
+<!--        </div>-->
+
+<!--    </header>-->
+
+
+{% load static %}
+<!--<div id="social" class="mx-auto">-->
+
+ <!-- Header -->
+    <header class="fixed top-0 left-0 w-full  bg-gray-600 z-40 ">
+        <div class="max-w-[1600px] mx-auto text-white">
+          <nav class="hidden lg:flex gap-10 items-center px-10">
+                <div class="container mx-auto flex gap-10 items-center">
+                    <a href="{% url 'home' %}">
+                        <h1 class="text-3xl font-bold">QR Code</h1>
+                    </a>
+                    <div class="flex">
+                        <a href="{% url 'admin:website_image_changelist' %}">
+                            <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Admin</h1>
+                        </a>
+                        <a href="{% url 'home' %}">
+                            <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Poslednji QR</h1>
+                        </a>
+                        <a href="{% url 'all_codes' %}">
+                            <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Svi QR</h1>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    {% if user.is_authenticated %}
+                   <form action="{% url 'admin:logout' %}" method="post" style="display: inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger p-5 hover:bg-gray-900">Logout</button>
+                    </form>
+                    {% else %}
+                    <a href="{% url 'admin:index' %}">
+                        <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-900">login</h1>
+                    </a>
+                {% endif %}
+                </div>
+          </nav>
+
+          <div class="lg:hidden flex items-center justify-between w-full">
+              <a href="{% url 'home' %}">
+                  <h1 class="text-3xl p-5">QR CODES</h1>
+              </a>
+            <div class="flex items-center">
+                <button class="text-white" id="mobileMenuToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-10 h-10">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            </div>
+        </div>
+
+       <!-- Mobilni meni -->
+        <div id="mobileMenu" class="lg:hidden fixed inset-0 shadow-md rounded-md text-white max-h-0 bg-gray-800 overflow-y-auto transition-all duration-500 ease-in-out">
+
+            <div class="px-10 py-5 flex justify-end">
+                <p id="closeMobileMenu" class="text-3xl text-end cursor-pointer w-fit">X</p>
+            </div>
+            <div class="flex justify-center items-center">
+                <h1 class="text-3xl">QR CODES</h1>
+            </div>
+            <br>
+            <a href="{% url 'admin:website_image_changelist' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
+                <h1 class="text-xl font-bold cursor-pointer">Admin</h1>
+            </a>
+            <a href="{% url 'home' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
+                <h1 class="text-xl font-bold cursor-pointer">Poslednji QR</h1>
+            </a>
+            <a href="{% url 'all_codes' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
+                <h1 class="text-xl font-bold cursor-pointer">Svi QR</h1>
+            </a>
+            <div class="text-xl block px-6 py-6 hover:bg-gray-600">
+                {% if user.is_authenticated %}
+                       <form action="{% url 'admin:logout' %}" method="post" style="display: inline;">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger">Logout</button>
+                        </form>
+                    {% else %}
+                    <a href="{% url 'admin:index' %}">
+                        <h1 class="text-xl font-bold cursor-pointer">login</h1>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </header>
+
+
+<script>
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const closeMobileMenu = document.getElementById('closeMobileMenu');
+
+<!--    const servicesBtn = document.getElementById('servicesBtn');-->
+<!--    const servicesMenu = document.getElementById('servicesMenu');-->
+
+
+    // Funkcija za toggle menija
+    mobileMenuToggle.addEventListener('click', function() {
+
+        if (mobileMenu.classList.contains('max-h-0')) {
+            mobileMenu.classList.remove('max-h-0');
+            mobileMenu.classList.add('max-h-[100vh]'); // Otvori meni sa animacijom
+        } else {
+            mobileMenu.classList.remove('max-h-[100vh]');
+            mobileMenu.classList.add('max-h-0'); // Zatvori meni sa animacijom
+        }
+    });
+
+<!--    // Funkcija za toggle Services menija-->
+<!--    servicesBtn.addEventListener('click', function() {-->
+<!--        if (servicesMenu.style.maxHeight) {-->
+<!--            servicesMenu.style.maxHeight = null;-->
+<!--        } else {-->
+<!--            servicesMenu.style.maxHeight = servicesMenu.scrollHeight + 'px';  // Automatski visina menija-->
+<!--        }-->
+<!--    });-->
+
+    // Funkcija za zatvaranje menija
+    closeMobileMenu.addEventListener('click', function() {
+        mobileMenu.classList.remove('max-h-[100vh]');
+        mobileMenu.classList.add('max-h-0'); // Zatvori meni sa animacijom
+    });
+</script>
