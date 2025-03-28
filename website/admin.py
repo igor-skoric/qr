@@ -7,6 +7,8 @@ class ImageAdmin(admin.ModelAdmin):
     list_display = ('image_preview', 'image', 'qr_code', 'created_at')
     ordering = ('-created_at',)
 
+    readonly_fields = ('qr_code',)  # Polje je samo za prikaz
+
     # Dodavanje prilagođenog template-a za listu objekata
     change_list_template = 'admin/image_change_list.html'
 

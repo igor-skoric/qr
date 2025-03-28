@@ -1,8 +1,11 @@
-from django.db import models
 import qrcode
+import os
+from django.db import models
 from io import BytesIO
 from django.core.files.uploadedfile import InMemoryUploadedFile
 from django.contrib.sites.models import Site
+from django.db.models.signals import post_delete
+from django.dispatch import receiver
 
 
 class Image(models.Model):
@@ -41,5 +44,22 @@ class Image(models.Model):
 
         return qr_file
 
+
     def __str__(self):
         return f"Image {self.id}"
+
+
+
+
+@receiver(post_delete, sender=Image)
+def delete_image_files(sender, instance, **kwargs):
+
+    if instance.image:
+        image_path = instance.image.path
+        if os.path.isfile(image_path):
+            os.remove(image_path)
+
+    if instance.image:
+        image_path = instance.image.path
+        if os.path.isfile(image_path):
+            os.remove(image_path)

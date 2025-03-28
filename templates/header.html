@@ -103,10 +103,10 @@
             </a>
             <div class="text-xl block px-6 py-6 hover:bg-gray-600">
                 {% if user.is_authenticated %}
-                       <form action="{% url 'admin:logout' %}" method="post" style="display: inline;">
-                            {% csrf_token %}
-                            <button type="submit" class="btn btn-danger">Logout</button>
-                        </form>
+                   <form action="{% url 'admin:logout' %}" method="post" >
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger w-full">Logout</button>
+                    </form>
                     {% else %}
                     <a href="{% url 'admin:index' %}">
                         <h1 class="text-xl font-bold cursor-pointer">login</h1>

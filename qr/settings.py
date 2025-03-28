@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'tailwind',
     'theme',
     'jazzmin',
-    'website',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_browser_reload',
     'django.contrib.sites',
+    'website.apps.WebsiteConfig',
 ]
 
 SITE_ID = 1
