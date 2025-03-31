@@ -15,14 +15,16 @@ class Image(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def save(self, *args, **kwargs):
+        # Prvo sačuvaj objekat, kako bi mogao da dobiješ ID
         super().save(*args, **kwargs)
 
-        # Generisanje QR koda samo ako slika nije prazna
-
-        if self.image:
+        # Generisanje QR koda samo ako slika postoji
+        if self.image and not self.qr_code:
             qr_code_image = self.generate_qr_code()
-            self.qr_code.save(f"qr_{self.pk}.png", qr_code_image, save=False)  # Čuvamo QR kod
-            super().save(update_fields=['qr_code'])  # Drugi put sačuvaj samo `qr_code`
+            self.qr_code.save(f"qr_{self.pk}.png", qr_code_image, save=False)
+
+            # Sačuvaj samo qr_code
+            super().save(update_fields=['qr_code'])
 
 
     def generate_qr_code(self):
@@ -49,7 +51,20 @@ class Image(models.Model):
         return f"Image {self.id}"
 
 
+class Client(models.Model):
+    name = models.CharField(max_length=100)  # Naziv projekta
+    background_image = models.ImageField(upload_to='client_backgrounds/')  # Slika pozadine
+    is_default = models.BooleanField(default=False)  # Da li je ovo podrazumevana slika pozadine
 
+    def save(self, *args, **kwargs):
+        # Ako je označen kao default, postavi sve druge is_default na False
+        if self.is_default:
+            Client.objects.exclude(id=self.id).update(is_default=False)
+
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name
 
 @receiver(post_delete, sender=Image)
 def delete_image_files(sender, instance, **kwargs):

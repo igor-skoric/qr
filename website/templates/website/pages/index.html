@@ -1,9 +1,29 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 
-<h1 class="mt-10 text-center text-4xl text-bold">{{title}}</h1>
-{% include 'website/components/last_code.html' %}
+
+    {% if chosen_image %}
+
+        {% include 'website/components/last_code.html' with chosen_image=chosen_image %}
+
+    {% else %}
+    <br>
+    <script src="{% static 'js/websocket.js' %}"></script>
+
+    <div class="absolute bottom-0 left-0 w-full h-1/2 text-white flex items-center justify-center">
+        <div class="flex flex-col items-center">
+<!--            <h1 class="mt-10  text-4xl font-bold text-white">{{title}}</h1>-->
+            <div>
+                <img id="image-container" src="" alt="Latest Image" width="200" class="rounded-xl">
+            </div>
+        </div>
+    </div>
+
+
+{% endif %}
+
 
 
 {% endblock %}

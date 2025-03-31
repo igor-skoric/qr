@@ -1,0 +1,13 @@
+{% load static %}
+
+{% if default_client and default_client.background_image %}
+    <style>
+        body {
+            background-image: url("{{ default_client.background_image.url }}");
+            background-size: cover; /* Slika pokriva ceo ekran */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+{% endif %}

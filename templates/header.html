@@ -1,41 +1,6 @@
-<!--    &lt;!&ndash; Header &ndash;&gt;-->
-<!--    <header class="flex bg-gray-500 text-white py-4 justify-center items-center pr-5">-->
-<!--        <div class="container mx-auto text-center">-->
-<!--            <h1 class="text-3xl font-bold">QR Kodovi</h1>-->
-<!--        </div>-->
-<!--        <div class="container mx-auto text-center flex gap-5">-->
-<!--            <a href="{% url 'admin:website_image_changelist' %}">-->
-<!--                <h1 class="text-xl font-bold cursor-pointer">Admin</h1>-->
-<!--            </a>-->
-<!--            <a href="{% url 'home' %}">-->
-<!--                <h1 class="text-xl font-bold cursor-pointer">Poslednji QR</h1>-->
-<!--            </a>-->
-<!--            <a href="{% url 'all_codes' %}">-->
-<!--                <h1 class="text-xl font-bold cursor-pointer">Svi QR</h1>-->
-<!--            </a>-->
-<!--        </div>-->
-<!--        <div class="container mx-auto text-center flex justify-end">-->
-<!--            {% if user.is_authenticated %}-->
-<!--                   <form action="{% url 'admin:logout' %}" method="post" style="display: inline;">-->
-<!--                        {% csrf_token %}-->
-<!--                        <button type="submit" class="btn btn-danger">Logout</button>-->
-<!--                    </form>-->
-<!--                {% else %}-->
-<!--                <a href="{% url 'admin:index' %}">-->
-<!--                    <h1 class="text-xl font-bold cursor-pointer">login</h1>-->
-<!--                </a>-->
-<!--            {% endif %}-->
-
-<!--        </div>-->
-
-<!--    </header>-->
-
-
 {% load static %}
-<!--<div id="social" class="mx-auto">-->
-
  <!-- Header -->
-    <header class="fixed top-0 left-0 w-full  bg-gray-600 z-40 ">
+    <header class="fixed top-0 left-0 w-full  bg-gray-600/50 z-40 ">
         <div class="max-w-[1600px] mx-auto text-white">
           <nav class="hidden lg:flex gap-10 items-center px-10">
                 <div class="container mx-auto flex gap-10 items-center">
@@ -51,6 +16,9 @@
                         </a>
                         <a href="{% url 'all_codes' %}">
                             <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Svi QR</h1>
+                        </a>
+                        <a href="{% url 'upload_image' %}">
+                            <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Upload image</h1>
                         </a>
                     </div>
                 </div>
@@ -118,39 +86,27 @@
     </header>
 
 
-<script>
-    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const closeMobileMenu = document.getElementById('closeMobileMenu');
-
-<!--    const servicesBtn = document.getElementById('servicesBtn');-->
-<!--    const servicesMenu = document.getElementById('servicesMenu');-->
+    <script>
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeMobileMenu = document.getElementById('closeMobileMenu');
 
 
-    // Funkcija za toggle menija
-    mobileMenuToggle.addEventListener('click', function() {
+        // Funkcija za toggle menija
+        mobileMenuToggle.addEventListener('click', function() {
 
-        if (mobileMenu.classList.contains('max-h-0')) {
-            mobileMenu.classList.remove('max-h-0');
-            mobileMenu.classList.add('max-h-[100vh]'); // Otvori meni sa animacijom
-        } else {
+            if (mobileMenu.classList.contains('max-h-0')) {
+                mobileMenu.classList.remove('max-h-0');
+                mobileMenu.classList.add('max-h-[100vh]'); // Otvori meni sa animacijom
+            } else {
+                mobileMenu.classList.remove('max-h-[100vh]');
+                mobileMenu.classList.add('max-h-0'); // Zatvori meni sa animacijom
+            }
+        });
+
+        // Funkcija za zatvaranje menija
+        closeMobileMenu.addEventListener('click', function() {
             mobileMenu.classList.remove('max-h-[100vh]');
             mobileMenu.classList.add('max-h-0'); // Zatvori meni sa animacijom
-        }
-    });
-
-<!--    // Funkcija za toggle Services menija-->
-<!--    servicesBtn.addEventListener('click', function() {-->
-<!--        if (servicesMenu.style.maxHeight) {-->
-<!--            servicesMenu.style.maxHeight = null;-->
-<!--        } else {-->
-<!--            servicesMenu.style.maxHeight = servicesMenu.scrollHeight + 'px';  // Automatski visina menija-->
-<!--        }-->
-<!--    });-->
-
-    // Funkcija za zatvaranje menija
-    closeMobileMenu.addEventListener('click', function() {
-        mobileMenu.classList.remove('max-h-[100vh]');
-        mobileMenu.classList.add('max-h-0'); // Zatvori meni sa animacijom
-    });
-</script>
+        });
+    </script>

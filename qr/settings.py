@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'daphne',
     'tailwind',
     'theme',
     'jazzmin',
@@ -43,10 +44,20 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_browser_reload',
     'django.contrib.sites',
-    'website.apps.WebsiteConfig',
+    'channels',
+    'website',
 ]
 
 SITE_ID = 1
+
+ASGI_APPLICATION = "qr.asgi.application"
+
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer",  # Za lokalni razvoj
+    },
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -73,6 +84,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'website.context_processors.default_client'
             ],
         },
     },
