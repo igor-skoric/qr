@@ -28,6 +28,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1', 'qr-codes-1d661a844374.herokuapp.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://qr-codes-1d661a844374.herokuapp.com',  # Replace with your Heroku domain
+    'http://localhost:8000',  # Optionally add localhost for local development
+    'http://127.0.0.1:8000',  # Optionally add localhost for local development
+]
 
 # Application definition
 
