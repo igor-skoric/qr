@@ -24,14 +24,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4)ga@&r9eoxdi9ui_hw0qw0bqqc2u6+hf6iq66-g@bnhb%$ai5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1', 'qr-codes-1d661a844374.herokuapp.com']
+ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1', 'qr-codes-1d661a844374.herokuapp.com','localhost']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://qr-codes-1d661a844374.herokuapp.com',  # Replace with your Heroku domain
     'http://localhost:8000',  # Optionally add localhost for local development
     'http://127.0.0.1:8000',  # Optionally add localhost for local development
+    'http://localhost:8000'
 ]
 
 # Application definition
