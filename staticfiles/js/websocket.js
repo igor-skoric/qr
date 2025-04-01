@@ -1,6 +1,8 @@
+const protocol = window.location.protocol === "https:" ? "wss://" : "ws://";
 
 // Povezivanje sa WebSocket serverom
-const socket = new WebSocket('ws://' + window.location.host + '/ws/somepath/');
+const socket = new WebSocket(protocol + window.location.host + '/ws/somepath/');
+console.log(socket);
 
 // Kada se uspostavi konekcija, pošaljite inicijalnu poruku
 socket.onopen = function(e) {
