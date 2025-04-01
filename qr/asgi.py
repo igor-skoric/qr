@@ -1,17 +1,17 @@
 import os
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'qr.settings')
-
+import django
 from django.core.asgi import get_asgi_application
 from channels.routing import ProtocolTypeRouter, URLRouter
 from channels.auth import AuthMiddlewareStack
-from qr.routing import websocket_urlpatterns  # Dodaj ovaj import
 
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "qr.settings")
+django.setup()  # OVAJ POZIV MORA IĆI PRE BILO ČEGA DRUGOG
 
+from .routing import websocket_urlpatterns  # Uvezi nakon django.setup()
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),
     "websocket": AuthMiddlewareStack(
-        URLRouter(websocket_urlpatterns)  # Ovdje koristiš websocket_urlpatterns
+        URLRouter(websocket_urlpatterns)
     ),
 })
