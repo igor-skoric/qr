@@ -73,16 +73,3 @@ class Client(models.Model):
 
     def __str__(self):
         return self.name
-
-@receiver(post_delete, sender=Image)
-def delete_image_files(sender, instance, **kwargs):
-
-    if instance.image:
-        image_path = instance.image.path
-        if os.path.isfile(image_path):
-            os.remove(image_path)
-
-    if instance.image:
-        image_path = instance.image.path
-        if os.path.isfile(image_path):
-            os.remove(image_path)
