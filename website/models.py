@@ -53,7 +53,7 @@ class Image(models.Model):
 
 class Client(models.Model):
     name = models.CharField(max_length=100)  # Naziv projekta
-    background_image = models.CloudinaryField()  # Slika pozadine
+    background_image = CloudinaryField()  # Slika pozadine
     is_default = models.BooleanField(default=False)  # Da li je ovo podrazumevana slika pozadine
 
     def save(self, *args, **kwargs):
