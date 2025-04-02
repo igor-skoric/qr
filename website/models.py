@@ -9,8 +9,8 @@ from django.dispatch import receiver
 from cloudinary.models import CloudinaryField
 
 class Image(models.Model):
-    image = models.CloudinaryField(upload_to='user_images/')
-    qr_code = models.CloudinaryField(upload_to='qr_codes/', blank=True, null=True)
+    image = CloudinaryField(upload_to='user_images/')
+    qr_code = CloudinaryField(upload_to='qr_codes/', blank=True, null=True)
     updated_at = models.DateTimeField(auto_now=True)  # Automatsko ažuriranje prilikom svake izmene
     created_at = models.DateTimeField(auto_now_add=True)
 
