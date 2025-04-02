@@ -16,32 +16,43 @@ class Image(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def save(self, *args, **kwargs):
-        # Prvo sačuvaj objekat, kako bi mogao da dobiješ ID
+        # Prvo sačuvaj objekat, kako bi mogao da dobiješ URL slike
         super().save(*args, **kwargs)
 
         # Generisanje QR koda samo ako slika postoji i QR kod nije već postavljen
         if self.image and not self.qr_code:
-            qr_code_image = self.generate_qr_code()
+            image_url = self.image.url  # Dobij URL slike sa Cloudinary-ja
 
-            # Sačuvaj generisani QR kod na Cloudinary
+            qr_code_image = self.generate_qr_code(image_url)  # Generiši QR kod sa URL-om slike
+
+            # Sačuvaj QR kod u memoriji
             qr_code_image_file = BytesIO()
             qr_code_image.save(qr_code_image_file, format='PNG')
-            qr_code_image_file.seek(0)  # Vratiti pokazivač na početak datoteke
+            qr_code_image_file.seek(0)  # Resetuj pokazivač na početak
 
-            # Učitavanje slike na Cloudinary
+            # Učitavanje QR koda na Cloudinary
             result = cloudinary.uploader.upload(qr_code_image_file, public_id=f"qr_{self.pk}", resource_type="image")
 
-            # Dodavanje URL-a sačuvane slike u qr_code polje
+            # Čuvanje URL-a generisanog QR koda
             self.qr_code = result['secure_url']
-
-            # Sačuvaj samo qr_code
             super().save(update_fields=['qr_code'])
 
-    def generate_qr_code(self):
-        # Ovaj metod treba da generiše QR kod na osnovu `self.image` ili drugih podataka
-        import qrcode
-        qr = qrcode.make("Some data related to the image or model")
-        return qr  # Vraća PIL Image objekat
+    def generate_qr_code(self, data):
+        """Generiše QR kod sa prosleđenim URL-om slike."""
+        qr = qrcode.QRCode(
+            version=1,
+            error_correction=qrcode.constants.ERROR_CORRECT_L,
+            box_size=10,
+            border=4,
+        )
+        qr.add_data(data)  # Koristi URL slike kao sadržaj QR koda
+        qr.make(fit=True)
+
+        img = qr.make_image(fill='black', back_color='white')
+        return img
+
+    def __str__(self):
+        return f"Image {self.id}"
 
 
     def __str__(self):
