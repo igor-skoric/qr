@@ -3,12 +3,7 @@ from django.utils.safestring import mark_safe
 from .models import Image, Client
 
 
-class ImageAdmin(admin.ModelAdmin):
-    list_display = ('image_preview', 'image', 'qr_code', 'created_at')
-    ordering = ('-created_at',)
-
-
-admin.site.register(Image, ImageAdmin)
+admin.site.register(Image)
 
 
 
