@@ -34,6 +34,6 @@ def notify_new_image(sender, instance, created, **kwargs):
             "image_group",  # Grupa kojoj šaljemo poruku
             {
                 "type": "new_image",  # Tip poruke koji želimo da obradimo
-                "message": instance.qr_code.url  # URL nove slike
+                "message": instance.qr_code  # URL nove slike
             }
         )
