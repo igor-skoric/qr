@@ -18,33 +18,29 @@ class Image(models.Model):
         # Prvo sačuvaj objekat, kako bi mogao da dobiješ ID
         super().save(*args, **kwargs)
 
-        # Generisanje QR koda samo ako slika postoji
+        # Generisanje QR koda samo ako slika postoji i QR kod nije već postavljen
         if self.image and not self.qr_code:
             qr_code_image = self.generate_qr_code()
-            self.qr_code.save(f"qr_{self.pk}.png", qr_code_image, save=False)
+
+            # Sačuvaj generisani QR kod na Cloudinary
+            qr_code_image_file = BytesIO()
+            qr_code_image.save(qr_code_image_file, format='PNG')
+            qr_code_image_file.seek(0)  # Vratiti pokazivač na početak datoteke
+
+            # Učitavanje slike na Cloudinary
+            result = cloudinary.uploader.upload(qr_code_image_file, public_id=f"qr_{self.pk}", resource_type="image")
+
+            # Dodavanje URL-a sačuvane slike u qr_code polje
+            self.qr_code = result['secure_url']
 
             # Sačuvaj samo qr_code
             super().save(update_fields=['qr_code'])
 
-
     def generate_qr_code(self):
-        # Dobijanje domena aplikacije
-        domain = Site.objects.get_current().domain
-        # Generisanje apsolutnog URL-a slike
-        qr_data = f"https://{domain}{self.image.url}"
-
-        # Generisanje QR koda
-        qr = qrcode.make(qr_data)
-
-        # Spremanje QR koda u memoriji
-        qr_io = BytesIO()
-        qr.save(qr_io, 'PNG')
-        qr_io.seek(0)
-
-        # Kreiranje InMemoryUploadedFile objekta za čuvanje QR koda u bazi
-        qr_file = InMemoryUploadedFile(qr_io, None, 'qr_code.png', 'image/png', qr_io.tell(), None)
-
-        return qr_file
+        # Ovaj metod treba da generiše QR kod na osnovu `self.image` ili drugih podataka
+        import qrcode
+        qr = qrcode.make("Some data related to the image or model")
+        return qr  # Vraća PIL Image objekat
 
 
     def __str__(self):
