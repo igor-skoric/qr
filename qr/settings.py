@@ -10,6 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 from pathlib import Path
 import os
 import dj_database_url
@@ -39,6 +42,8 @@ CSRF_TRUSTED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'cloudinary',
+    'cloudinary_storage',
     'daphne',
     'tailwind',
     'theme',
@@ -97,6 +102,13 @@ TEMPLATES = [
     },
 ]
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dxzcabe8c',
+    'API_KEY': '944279241214454',
+    'API_SECRET': 'TbgjNDfsTL9Jru3cK2KhnfaSvp4',
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 WSGI_APPLICATION = 'qr.wsgi.application'
 
 
@@ -168,7 +180,9 @@ STATICFILES_DIRS = [
 ]
 
 # Direktori za medijske fajlove
-MEDIA_URL = '/media/'
+# MEDIA_URL = '/media/'
+MEDIA_URL = 'https://res.cloudinary.com/dxzcabe8c/'
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type

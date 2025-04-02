@@ -6,11 +6,11 @@ from django.core.files.uploadedfile import InMemoryUploadedFile
 from django.contrib.sites.models import Site
 from django.db.models.signals import post_delete
 from django.dispatch import receiver
-
+from cloudinary.models import CloudinaryField
 
 class Image(models.Model):
-    image = models.ImageField(upload_to='user_images/')
-    qr_code = models.ImageField(upload_to='qr_codes/', blank=True, null=True)
+    image = models.CloudinaryField(upload_to='user_images/')
+    qr_code = models.CloudinaryField(upload_to='qr_codes/', blank=True, null=True)
     updated_at = models.DateTimeField(auto_now=True)  # Automatsko ažuriranje prilikom svake izmene
     created_at = models.DateTimeField(auto_now_add=True)
 
