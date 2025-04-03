@@ -35,7 +35,7 @@ SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", default=False)
-print(DEBUG)
+
 ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1', 'qr-codes-1d661a844374.herokuapp.com','localhost']
 
 CSRF_TRUSTED_ORIGINS = [
@@ -115,30 +115,17 @@ cloudinary.config(
     api_key=env("CLOUDINARY_API_KEY"),
     api_secret=env("CLOUDINARY_API_SECRET")
 )
-
-
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': env("CLOUDINARY_CLOUD_NAME"),
     'API_KEY': env("CLOUDINARY_API_KEY"),
     'API_SECRET': env("CLOUDINARY_API_SECRET"),
 }
-
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'qr',
-#         'USER': 'postgres',
-#         'PASSWORD': 'admin',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
-# }
 
 DATABASES = {
     'default': dj_database_url.config(default=env("DATABASE_URL"))
@@ -184,12 +171,19 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # Putanja gde će se statički fajlovi čuvati u produkciji (nakon komande collectstatic)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles2')
 
 # Direktori za dodatne statičke fajlove
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+
+STATICFILES_FINDERS = [
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+]
+
 
 # Direktori za medijske fajlove
 # MEDIA_URL = '/media/'
@@ -219,7 +213,7 @@ EMAIL_HOST_USER = 'contact@qr.rs'  # Tvoj email
 EMAIL_HOST_PASSWORD = ''  # Tvoj email password (ili aplikacijski password)
 DEFAULT_FROM_EMAIL = 'contact@qr.rs'  # Email sa kojeg ćeš slati poruke
 
-
+WSGI_APPLICATION = 'qr.wsgi.application'
 
 LOGGING_DIR = os.path.join(BASE_DIR, "logs")  # Kreiraj folder za logove
 if not os.path.exists(LOGGING_DIR):
