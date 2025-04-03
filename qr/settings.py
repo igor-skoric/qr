@@ -13,9 +13,15 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
+
 from pathlib import Path
 import os
 import dj_database_url
+import environ
+
+# Inicijalizacija
+env = environ.Env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,11 +31,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4)ga@&r9eoxdi9ui_hw0qw0bqqc2u6+hf6iq66-g@bnhb%$ai5'
+SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
+DEBUG = env.bool("DEBUG", default=False)
+print(DEBUG)
 ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1', 'qr-codes-1d661a844374.herokuapp.com','localhost']
 
 CSRF_TRUSTED_ORIGINS = [
@@ -42,6 +48,7 @@ CSRF_TRUSTED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
+    # Aplikacije koje se tiču statičkih fajlova
     'cloudinary',
     'cloudinary_storage',
     'daphne',
@@ -102,14 +109,21 @@ TEMPLATES = [
     },
 ]
 
+# Konfiguracija Cloudinary-ja
+cloudinary.config(
+    cloud_name=env("CLOUDINARY_CLOUD_NAME"),
+    api_key=env("CLOUDINARY_API_KEY"),
+    api_secret=env("CLOUDINARY_API_SECRET")
+)
+
+
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dxzcabe8c',
-    'API_KEY': '944279241214454',
-    'API_SECRET': 'TbgjNDfsTL9Jru3cK2KhnfaSvp4',
+    'CLOUD_NAME': env("CLOUDINARY_CLOUD_NAME"),
+    'API_KEY': env("CLOUDINARY_API_KEY"),
+    'API_SECRET': env("CLOUDINARY_API_SECRET"),
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-WSGI_APPLICATION = 'qr.wsgi.application'
 
 
 # Database
@@ -127,10 +141,8 @@ WSGI_APPLICATION = 'qr.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgres://username:password@hostname:port/dbname')
+    'default': dj_database_url.config(default=env("DATABASE_URL"))
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

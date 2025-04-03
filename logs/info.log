@@ -15424,3 +15424,1719 @@ INFO 2025-03-31 13:34:44,517 runserver HTTP GET /media/qr_codes/qr_145.png 200 [
 INFO 2025-03-31 13:34:44,520 runserver HTTP GET /static/django-browser-reload/reload-worker.js 304 [0.01, 127.0.0.1:49986]
 WARNING 2025-03-31 13:34:44,612 log Not Found: /favicon.ico
 WARNING 2025-03-31 13:34:44,613 runserver HTTP GET /favicon.ico 404 [0.03, 127.0.0.1:49989]
+INFO 2025-03-31 13:44:48,486 runserver HTTP GET / 200 [0.01, 127.0.0.1:50234]
+INFO 2025-03-31 13:44:48,503 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:49990]
+INFO 2025-03-31 13:44:48,534 runserver HTTP GET /static/css/dist/styles.css?v=1743421488 200 [0.01, 127.0.0.1:50234]
+INFO 2025-03-31 13:44:48,564 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50235]
+INFO 2025-03-31 13:44:48,574 runserver HTTP GET /static/django-browser-reload/reload-worker.js 304 [0.01, 127.0.0.1:50234]
+INFO 2025-03-31 13:44:48,576 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50235]
+WARNING 2025-03-31 13:44:48,598 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:44:48,599 runserver HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:50234]
+INFO 2025-03-31 13:44:48,666 runserver HTTP GET /media/qr_codes/qr_145.png 304 [0.01, 127.0.0.1:50236]
+INFO 2025-03-31 13:44:55,126 autoreload Watching for file changes with StatReloader
+INFO 2025-03-31 13:44:56,881 runserver HTTP GET / 200 [0.13, 127.0.0.1:50251]
+INFO 2025-03-31 13:44:56,965 runserver HTTP GET /static/css/dist/styles.css?v=1743421496 200 [0.06, 127.0.0.1:50251]
+INFO 2025-03-31 13:44:57,018 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50255]
+INFO 2025-03-31 13:44:57,025 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50255]
+INFO 2025-03-31 13:44:57,052 runserver HTTP GET / 200 [0.01, 127.0.0.1:50251]
+INFO 2025-03-31 13:44:57,059 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:50255]
+INFO 2025-03-31 13:44:57,082 runserver HTTP GET /static/css/dist/styles.css?v=1743421497 200 [0.00, 127.0.0.1:50251]
+INFO 2025-03-31 13:44:57,107 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50256]
+INFO 2025-03-31 13:44:57,111 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50256]
+INFO 2025-03-31 13:44:58,137 runserver HTTP GET / 200 [0.01, 127.0.0.1:50251]
+INFO 2025-03-31 13:44:58,143 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:50256]
+INFO 2025-03-31 13:44:58,162 runserver HTTP GET /static/css/dist/styles.css?v=1743421498 200 [0.00, 127.0.0.1:50251]
+INFO 2025-03-31 13:44:58,172 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50258]
+INFO 2025-03-31 13:44:58,180 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50258]
+INFO 2025-03-31 13:45:00,139 runserver HTTP GET /all_codes 200 [0.04, 127.0.0.1:50251]
+INFO 2025-03-31 13:45:00,173 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:50258]
+INFO 2025-03-31 13:45:00,183 runserver HTTP GET /static/css/dist/styles.css?v=1743421500 200 [0.00, 127.0.0.1:50251]
+INFO 2025-03-31 13:45:00,189 runserver HTTP GET /media/user_images/DSC04869.jpeg 304 [0.01, 127.0.0.1:50260]
+INFO 2025-03-31 13:45:00,190 runserver HTTP GET /media/qr_codes/qr_144.png 304 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:00,221 runserver HTTP GET /media/user_images/8.png 304 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:00,557 runserver HTTP GET / 200 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:00,581 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50263]
+INFO 2025-03-31 13:45:00,585 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50263]
+INFO 2025-03-31 13:45:01,054 runserver HTTP GET /admin/website/image/ 200 [0.13, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:01,081 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:50263]
+INFO 2025-03-31 13:45:01,110 runserver HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:03,585 runserver HTTP GET / 200 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:03,622 runserver HTTP GET /static/css/dist/styles.css?v=1743421503 200 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:03,640 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50266]
+INFO 2025-03-31 13:45:03,648 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50266]
+INFO 2025-03-31 13:45:21,915 runserver HTTP GET / 200 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:21,919 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:50266]
+INFO 2025-03-31 13:45:21,930 runserver HTTP GET /static/css/dist/styles.css?v=1743421521 200 [0.00, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:21,945 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50280]
+INFO 2025-03-31 13:45:21,949 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50280]
+INFO 2025-03-31 13:45:22,753 runserver HTTP GET / 200 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:22,760 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:50280]
+INFO 2025-03-31 13:45:22,776 runserver HTTP GET /static/css/dist/styles.css?v=1743421522 200 [0.00, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:22,776 runserver HTTP GET /static/js/websocket.js 200 [0.00, 127.0.0.1:50260]
+INFO 2025-03-31 13:45:22,815 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:45:23,031 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.01, 127.0.0.1:50261]
+WARNING 2025-03-31 13:45:23,056 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:45:23,056 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:50261]
+INFO 2025-03-31 13:57:05,095 autoreload Watching for file changes with StatReloader
+INFO 2025-03-31 13:57:06,450 runserver HTTP GET / 200 [0.03, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:06,475 runserver HTTP GET /static/js/websocket.js 304 [0.00, 127.0.0.1:50913]
+INFO 2025-03-31 13:57:06,552 runserver HTTP GET /static/css/dist/styles.css?v=1743422226 200 [0.09, 127.0.0.1:50899]
+WARNING 2025-03-31 13:57:06,662 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:57:06,663 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:13,766 runserver HTTP GET / 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:13,798 runserver HTTP GET /static/css/dist/styles.css?v=1743422233 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:13,800 runserver HTTP GET /static/js/websocket.js 200 [0.01, 127.0.0.1:50913]
+INFO 2025-03-31 13:57:13,885 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.00, 127.0.0.1:50913]
+INFO 2025-03-31 13:57:14,017 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.01, 127.0.0.1:50913]
+WARNING 2025-03-31 13:57:14,083 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:57:14,086 runserver HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:50913]
+INFO 2025-03-31 13:57:15,874 runserver HTTP GET / 200 [0.01, 127.0.0.1:50913]
+INFO 2025-03-31 13:57:15,915 runserver HTTP GET /static/css/dist/styles.css?v=1743422235 200 [0.01, 127.0.0.1:50913]
+INFO 2025-03-31 13:57:15,921 runserver HTTP GET /static/js/websocket.js 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:15,956 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:16,047 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.01, 127.0.0.1:50899]
+WARNING 2025-03-31 13:57:16,062 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:57:16,063 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:17,371 runserver HTTP GET /all_codes 200 [0.02, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:17,443 runserver HTTP GET /static/css/dist/styles.css?v=1743422237 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:17,450 runserver HTTP GET /media/qr_codes/qr_145.png 304 [0.02, 127.0.0.1:50913]
+INFO 2025-03-31 13:57:17,451 runserver HTTP GET /media/user_images/DSC04869.jpeg 304 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:17,492 runserver HTTP GET /media/qr_codes/qr_144.png 304 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:17,493 runserver HTTP GET /media/user_images/8.png 304 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:18,552 runserver HTTP GET /admin/website/image/ 200 [0.05, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:18,608 runserver HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:18,740 runserver HTTP GET /static/vendor/adminlte/css/adminlte.min.css.map 304 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:18,753 runserver HTTP GET /static/vendor/bootstrap/js/bootstrap.min.js.map 304 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:18,753 runserver HTTP GET /static/vendor/adminlte/js/adminlte.min.js.map 304 [0.00, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:19,962 runserver HTTP GET / 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:19,987 runserver HTTP GET /static/css/dist/styles.css?v=1743422239 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:20,561 runserver HTTP GET / 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:20,596 runserver HTTP GET /static/css/dist/styles.css?v=1743422240 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:23,477 runserver HTTP GET / 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:23,513 runserver HTTP GET /static/css/dist/styles.css?v=1743422243 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:39,358 runserver HTTP GET / 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:39,381 runserver HTTP GET /static/css/dist/styles.css?v=1743422259 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:39,886 runserver HTTP GET / 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:39,908 runserver HTTP GET /static/css/dist/styles.css?v=1743422259 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:39,912 runserver HTTP GET /static/js/websocket.js 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:39,941 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.00, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:40,100 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.00, 127.0.0.1:50899]
+WARNING 2025-03-31 13:57:40,114 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:57:40,115 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:40,841 runserver HTTP GET / 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:40,868 runserver HTTP GET /static/css/dist/styles.css?v=1743422260 200 [0.00, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:40,869 runserver HTTP GET /static/js/websocket.js 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:40,950 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.00, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:40,991 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.00, 127.0.0.1:50899]
+WARNING 2025-03-31 13:57:41,009 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:57:41,009 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:53,862 runserver HTTP GET / 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:53,882 runserver HTTP GET /static/css/dist/styles.css?v=1743422273 200 [0.00, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:54,303 runserver HTTP GET / 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:54,338 runserver HTTP GET /static/css/dist/styles.css?v=1743422274 200 [0.00, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:54,342 runserver HTTP GET /static/js/websocket.js 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:54,386 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:54,523 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.01, 127.0.0.1:50924]
+WARNING 2025-03-31 13:57:54,566 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:57:54,566 runserver HTTP GET /favicon.ico 404 [0.02, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:55,568 runserver HTTP GET / 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:55,608 runserver HTTP GET /static/css/dist/styles.css?v=1743422275 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:57:55,611 runserver HTTP GET /static/js/websocket.js 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:55,652 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.00, 127.0.0.1:50899]
+INFO 2025-03-31 13:57:55,775 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.01, 127.0.0.1:50899]
+WARNING 2025-03-31 13:57:55,792 log Not Found: /favicon.ico
+WARNING 2025-03-31 13:57:55,793 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:58:07,009 runserver HTTP GET / 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:58:07,033 runserver HTTP GET /static/css/dist/styles.css?v=1743422287 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:58:07,033 runserver HTTP GET /static/js/websocket.js 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:58:22,051 runserver HTTP GET / 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:58:22,079 runserver HTTP GET /static/css/dist/styles.css?v=1743422302 200 [0.01, 127.0.0.1:50899]
+INFO 2025-03-31 13:58:22,081 runserver HTTP GET /static/js/websocket.js 200 [0.00, 127.0.0.1:50924]
+INFO 2025-03-31 13:58:22,128 runserver HTTP GET / 200 [0.01, 127.0.0.1:50924]
+INFO 2025-03-31 13:58:22,331 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:50980]
+INFO 2025-03-31 13:58:22,336 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:50980]
+INFO 2025-03-31 13:59:59,920 autoreload D:\projects\qr\qr\qr\qr\settings.py changed, reloading.
+INFO 2025-03-31 14:00:00,524 autoreload Watching for file changes with StatReloader
+INFO 2025-03-31 14:00:00,703 basehttp "GET / HTTP/1.1" 200 6834
+INFO 2025-03-31 14:00:00,724 basehttp "GET /static/js/websocket.js HTTP/1.1" 304 0
+INFO 2025-03-31 14:00:00,769 basehttp "GET /static/css/dist/styles.css?v=1743422400 HTTP/1.1" 200 24012
+WARNING 2025-03-31 14:00:00,865 log Not Found: /ws/somepath/
+WARNING 2025-03-31 14:00:00,869 log Not Found: /favicon.ico
+WARNING 2025-03-31 14:00:00,870 basehttp "GET /ws/somepath/ HTTP/1.1" 404 4193
+WARNING 2025-03-31 14:00:00,870 basehttp "GET /favicon.ico HTTP/1.1" 404 4190
+INFO 2025-03-31 14:00:05,982 basehttp "GET / HTTP/1.1" 200 6834
+INFO 2025-03-31 14:00:06,005 basehttp "GET /static/css/dist/styles.css?v=1743422405 HTTP/1.1" 200 24012
+INFO 2025-03-31 14:00:06,007 basehttp "GET /static/js/websocket.js HTTP/1.1" 200 1235
+INFO 2025-03-31 14:00:06,041 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-31 14:00:06,120 log Not Found: /ws/somepath/
+WARNING 2025-03-31 14:00:06,120 basehttp "GET /ws/somepath/ HTTP/1.1" 404 4193
+INFO 2025-03-31 14:00:06,123 basehttp "GET /media/client_backgrounds/cocacola.jpg HTTP/1.1" 200 466418
+WARNING 2025-03-31 14:00:06,134 log Not Found: /favicon.ico
+WARNING 2025-03-31 14:00:06,136 basehttp "GET /favicon.ico HTTP/1.1" 404 4190
+INFO 2025-03-31 14:00:07,102 basehttp "GET / HTTP/1.1" 200 6834
+INFO 2025-03-31 14:00:07,119 basehttp "GET /static/css/dist/styles.css?v=1743422407 HTTP/1.1" 200 24012
+INFO 2025-03-31 14:00:07,126 basehttp "GET /static/js/websocket.js HTTP/1.1" 200 1235
+INFO 2025-03-31 14:00:07,145 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-03-31 14:00:07,213 log Not Found: /ws/somepath/
+WARNING 2025-03-31 14:00:07,213 basehttp "GET /ws/somepath/ HTTP/1.1" 404 4193
+INFO 2025-03-31 14:00:07,214 basehttp - Broken pipe from ('127.0.0.1', 51070)
+INFO 2025-03-31 14:00:07,214 basehttp "GET /media/client_backgrounds/cocacola.jpg HTTP/1.1" 200 466418
+WARNING 2025-03-31 14:00:07,259 log Not Found: /favicon.ico
+WARNING 2025-03-31 14:00:07,259 basehttp "GET /favicon.ico HTTP/1.1" 404 4190
+INFO 2025-03-31 14:00:11,171 autoreload D:\projects\qr\qr\qr\qr\settings.py changed, reloading.
+INFO 2025-03-31 14:00:12,077 autoreload Watching for file changes with StatReloader
+INFO 2025-03-31 14:00:12,406 runserver HTTP GET / 200 [0.03, 127.0.0.1:51080]
+INFO 2025-03-31 14:00:12,476 runserver HTTP GET /static/css/dist/styles.css?v=1743422412 200 [0.05, 127.0.0.1:51080]
+INFO 2025-03-31 14:00:12,549 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:51081]
+INFO 2025-03-31 14:00:12,553 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:51081]
+INFO 2025-03-31 14:00:13,365 runserver HTTP GET / 200 [0.01, 127.0.0.1:51080]
+INFO 2025-03-31 14:00:13,372 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:51081]
+INFO 2025-03-31 14:00:13,394 runserver HTTP GET /static/css/dist/styles.css?v=1743422413 200 [0.01, 127.0.0.1:51080]
+INFO 2025-03-31 14:00:13,395 runserver HTTP GET /static/js/websocket.js 200 [0.01, 127.0.0.1:51074]
+INFO 2025-03-31 14:00:13,414 runserver HTTP GET /static/django-browser-reload/reload-listener.js 200 [0.00, 127.0.0.1:51074]
+INFO 2025-03-31 14:00:13,554 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:51082]
+INFO 2025-03-31 14:00:13,569 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:51082]
+INFO 2025-03-31 14:00:13,571 runserver HTTP GET /media/client_backgrounds/cocacola.jpg 200 [0.01, 127.0.0.1:51074]
+INFO 2025-03-31 14:00:13,583 runserver HTTP GET /media/qr_codes/qr_145.png 200 [0.00, 127.0.0.1:51074]
+WARNING 2025-03-31 14:00:13,606 log Not Found: /favicon.ico
+WARNING 2025-03-31 14:00:13,607 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:51074]
+INFO 2025-03-31 14:03:02,642 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:51082]
+INFO 2025-03-31 15:02:34,604 autoreload D:\projects\qr\qr\qr\qr\asgi.py changed, reloading.
+INFO 2025-03-31 15:02:35,512 autoreload Watching for file changes with StatReloader
+INFO 2025-03-31 15:02:41,563 autoreload Watching for file changes with StatReloader
+INFO 2025-03-31 15:24:43,134 runserver HTTP GET / 200 [0.04, 127.0.0.1:55113]
+INFO 2025-03-31 15:24:43,220 runserver HTTP GET /static/js/websocket.js 304 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:43,281 runserver HTTP GET /static/css/dist/styles.css?v=1743427483 200 [0.07, 127.0.0.1:55113]
+INFO 2025-03-31 15:24:43,313 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55116]
+INFO 2025-03-31 15:24:43,319 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55116]
+INFO 2025-03-31 15:24:43,355 runserver HTTP GET /media/qr_codes/qr_145.png 304 [0.01, 127.0.0.1:55113]
+WARNING 2025-03-31 15:24:43,356 log Not Found: /favicon.ico
+WARNING 2025-03-31 15:24:43,357 runserver HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:50,205 runserver HTTP GET /upload_image 200 [0.08, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:50,244 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:55116]
+INFO 2025-03-31 15:24:50,250 runserver HTTP GET /static/css/dist/styles.css?v=1743427490 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:56,762 runserver HTTP POST /image_upload 200 [0.38, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:56,781 runserver HTTP GET /media/user_images/cocacola.jpg 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:58,015 runserver HTTP GET / 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:58,042 runserver HTTP GET /static/css/dist/styles.css?v=1743427498 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:24:58,056 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55126]
+INFO 2025-03-31 15:24:58,064 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55126]
+INFO 2025-03-31 15:24:58,144 runserver HTTP GET /media/qr_codes/qr_146.png 200 [0.03, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:02,149 runserver HTTP GET / 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:02,153 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:55126]
+INFO 2025-03-31 15:25:02,170 runserver HTTP GET /static/css/dist/styles.css?v=1743427502 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:02,178 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55131]
+INFO 2025-03-31 15:25:02,182 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55131]
+INFO 2025-03-31 15:25:02,212 runserver HTTP GET /media/qr_codes/qr_146.png 304 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:03,259 runserver HTTP GET /all_codes 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:03,289 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:55131]
+INFO 2025-03-31 15:25:03,296 runserver HTTP GET /static/css/dist/styles.css?v=1743427503 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:03,322 runserver HTTP GET /media/user_images/cocacola.jpg 304 [0.01, 127.0.0.1:55113]
+INFO 2025-03-31 15:25:03,324 runserver HTTP GET /media/qr_codes/qr_146.png 304 [0.02, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:03,334 runserver HTTP GET /media/user_images/DSC04869.jpeg 304 [0.01, 127.0.0.1:55132]
+INFO 2025-03-31 15:25:03,334 runserver HTTP GET /media/qr_codes/qr_144.png 304 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:03,335 runserver HTTP GET /media/user_images/8.png 304 [0.01, 127.0.0.1:55134]
+INFO 2025-03-31 15:25:03,338 runserver HTTP GET /media/qr_codes/qr_143.png 304 [0.00, 127.0.0.1:55132]
+INFO 2025-03-31 15:25:03,382 runserver HTTP GET /media/qr_codes/qr_142.png 304 [0.02, 127.0.0.1:55113]
+INFO 2025-03-31 15:25:03,382 runserver HTTP GET /media/user_images/zvezda.jpg 304 [0.02, 127.0.0.1:55132]
+INFO 2025-03-31 15:25:03,383 runserver HTTP GET /media/user_images/default-car.jpg 304 [0.02, 127.0.0.1:55134]
+INFO 2025-03-31 15:25:03,384 runserver HTTP GET /media/qr_codes/qr_141.png 304 [0.02, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:03,385 runserver HTTP GET /media/user_images/pravougaonik.jpg 304 [0.02, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:07,997 runserver HTTP GET /code/145 200 [0.03, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:08,022 runserver HTTP GET /static/css/dist/styles.css?v=1743427507 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:09,344 runserver HTTP GET / 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:09,374 runserver HTTP GET /static/css/dist/styles.css?v=1743427509 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:09,385 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55140]
+INFO 2025-03-31 15:25:09,391 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55140]
+INFO 2025-03-31 15:25:09,406 runserver HTTP GET /media/qr_codes/qr_146.png 304 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:10,434 runserver HTTP GET /all_codes 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:10,459 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:55140]
+INFO 2025-03-31 15:25:10,467 runserver HTTP GET /media/user_images/cocacola.jpg 304 [0.00, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:10,467 runserver HTTP GET /static/css/dist/styles.css?v=1743427510 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:39,383 runserver HTTP GET / 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:39,408 runserver HTTP GET /static/css/dist/styles.css?v=1743427539 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:39,422 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55160]
+INFO 2025-03-31 15:25:39,426 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55160]
+INFO 2025-03-31 15:25:39,465 runserver HTTP GET /media/qr_codes/qr_146.png 304 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:39,929 runserver HTTP GET /admin/website/image/ 200 [0.04, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:39,955 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:55160]
+INFO 2025-03-31 15:25:40,018 runserver HTTP GET /admin/jsi18n/ 200 [0.06, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:40,019 runserver HTTP GET /media/user_images/cocacola.jpg 304 [0.05, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:42,029 runserver HTTP GET /admin/website/client/ 200 [0.02, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:42,058 runserver HTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:42,063 runserver HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:44,501 runserver HTTP GET /admin/website/client/4/change/ 200 [0.08, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:44,525 runserver HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:46,588 runserver HTTP POST /admin/website/client/4/change/ 302 [0.02, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:46,624 runserver HTTP GET /admin/website/client/ 200 [0.03, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:46,721 runserver HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:46,728 runserver HTTP GET /static/admin/img/icon-yes.svg 304 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:47,936 runserver HTTP GET /admin/website/image/ 200 [0.02, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:47,964 runserver HTTP GET /media/user_images/cocacola.jpg 304 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:47,969 runserver HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:48,665 runserver HTTP GET / 200 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:48,686 runserver HTTP GET /static/css/dist/styles.css?v=1743427548 200 [0.00, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:48,695 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55172]
+INFO 2025-03-31 15:25:48,701 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55172]
+INFO 2025-03-31 15:25:48,723 runserver HTTP GET /media/client_backgrounds/itbranch_57O32vj.jpg 304 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:48,725 runserver HTTP GET /media/qr_codes/qr_146.png 304 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:55,606 runserver HTTP GET /all_codes 200 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:55,630 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:55172]
+INFO 2025-03-31 15:25:55,638 runserver HTTP GET /media/qr_codes/qr_146.png 304 [0.01, 127.0.0.1:55115]
+INFO 2025-03-31 15:25:55,638 runserver HTTP GET /static/css/dist/styles.css?v=1743427555 200 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:25:55,640 runserver HTTP GET /media/user_images/cocacola.jpg 304 [0.01, 127.0.0.1:55134]
+ERROR 2025-03-31 15:26:12,619 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-03-31 15:26:12,797 log Bad Request: /
+WARNING 2025-03-31 15:26:12,797 runserver HTTP GET / 400 [0.18, 127.0.0.1:55208]
+ERROR 2025-03-31 15:26:12,978 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-03-31 15:26:12,995 log Bad Request: /favicon.ico
+WARNING 2025-03-31 15:26:12,995 runserver HTTP GET /favicon.ico 400 [0.02, 127.0.0.1:55208]
+INFO 2025-03-31 15:26:20,872 runserver HTTP GET / 200 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:26:20,896 runserver HTTP GET /static/css/dist/styles.css?v=1743427580 200 [0.00, 127.0.0.1:55133]
+INFO 2025-03-31 15:26:20,968 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55215]
+INFO 2025-03-31 15:26:20,972 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55215]
+INFO 2025-03-31 15:26:24,044 runserver HTTP GET /upload_image 200 [0.01, 127.0.0.1:55133]
+INFO 2025-03-31 15:26:24,073 runserver HTTP GET /static/css/dist/styles.css?v=1743427584 200 [0.00, 127.0.0.1:55133]
+INFO 2025-03-31 15:26:37,249 runserver HTTP POST /image_upload 200 [0.06, 127.0.0.1:55133]
+INFO 2025-03-31 15:26:37,290 runserver HTTP GET /media/qr_codes/qr_147.png 200 [0.04, 127.0.0.1:55133]
+INFO 2025-03-31 15:26:37,290 runserver HTTP GET /media/user_images/itbranch.jpg 200 [0.03, 127.0.0.1:55134]
+INFO 2025-03-31 15:26:44,197 runserver HTTP GET /upload_image 200 [0.01, 127.0.0.1:55134]
+INFO 2025-03-31 15:26:44,224 runserver HTTP GET /static/css/dist/styles.css?v=1743427604 200 [0.01, 127.0.0.1:55134]
+INFO 2025-03-31 16:42:53,650 autoreload Watching for file changes with StatReloader
+INFO 2025-03-31 18:16:43,303 autoreload D:\projects\qr\qr\qr\qr\asgi.py changed, reloading.
+INFO 2025-03-31 18:16:44,193 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-31 18:28:56,415 log Not Found: /favicon.ico
+WARNING 2025-03-31 19:05:14,566 log Not Found: /favicon.ico
+WARNING 2025-04-01 12:03:16,086 log Not Found: /favicon.ico
+ERROR 2025-04-01 12:55:20,838 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-04-01 12:55:21,008 log Bad Request: /
+ERROR 2025-04-01 12:55:21,226 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-04-01 12:55:21,253 log Bad Request: /favicon.ico
+WARNING 2025-04-02 16:46:21,636 log Not Found: /static/img/favicon.png
+ERROR 2025-04-03 10:49:00,644 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sessions\backends\base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\auth\decorators.py", line 57, in _view_wrapper
+    test_pass = test_func(request.user)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\auth\decorators.py", line 80, in <lambda>
+    lambda u: u.is_authenticated,
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\auth\middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\auth\middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\auth\__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\auth\__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sessions\backends\base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sessions\backends\db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1572, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "admin"
+
+ERROR 2025-04-03 10:50:17,456 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 65, in image_upload
+    image.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 20, in save
+    super().save(*args, **kwargs)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1708, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 252, in upload_resource
+    result = upload_func(file, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 197, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 833, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 881, in call_api
+    params = utils.sign_request(params, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\utils.py", line 617, in sign_request
+    raise ValueError("Must supply api_key")
+ValueError: Must supply api_key
+ERROR 2025-04-03 10:50:46,592 log Internal Server Error: /admin/website/client/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 72, in save
+    super().save(*args, **kwargs)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1708, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 252, in upload_resource
+    result = upload_func(file, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 197, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 833, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 881, in call_api
+    params = utils.sign_request(params, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\utils.py", line 617, in sign_request
+    raise ValueError("Must supply api_key")
+ValueError: Must supply api_key
+WARNING 2025-04-03 10:50:46,862 log Not Found: /favicon.ico
+ERROR 2025-04-03 10:56:23,242 log Internal Server Error: /admin/website/client/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 72, in save
+    super().save(*args, **kwargs)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1708, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 252, in upload_resource
+    result = upload_func(file, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 197, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 833, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 881, in call_api
+    params = utils.sign_request(params, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\utils.py", line 617, in sign_request
+    raise ValueError("Must supply api_key")
+ValueError: Must supply api_key
+ERROR 2025-04-03 10:57:02,072 log Internal Server Error: /admin/website/client/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 72, in save
+    super().save(*args, **kwargs)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1708, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 252, in upload_resource
+    result = upload_func(file, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 197, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 833, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 881, in call_api
+    params = utils.sign_request(params, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\utils.py", line 617, in sign_request
+    raise ValueError("Must supply api_key")
+ValueError: Must supply api_key
+ERROR 2025-04-03 10:58:48,776 log Internal Server Error: /admin/website/client/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 72, in save
+    super().save(*args, **kwargs)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1708, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 252, in upload_resource
+    result = upload_func(file, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 197, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 833, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 881, in call_api
+    params = utils.sign_request(params, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\utils.py", line 617, in sign_request
+    raise ValueError("Must supply api_key")
+ValueError: Must supply api_key
+ERROR 2025-04-03 11:03:16,479 log Internal Server Error: /admin/website/client/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 72, in save
+    super().save(*args, **kwargs)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1708, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 252, in upload_resource
+    result = upload_func(file, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 197, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 833, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 881, in call_api
+    params = utils.sign_request(params, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\utils.py", line 617, in sign_request
+    raise ValueError("Must supply api_key")
+ValueError: Must supply api_key
+ERROR 2025-04-03 11:08:55,416 log Internal Server Error: /admin/website/client/add/
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1959, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1818, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1869, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\contrib\admin\options.py", line 1292, in save_model
+    obj.save()
+  File "D:\projects\qr\qr\qr\website\models.py", line 72, in save
+    super().save(*args, **kwargs)
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\db\models\sql\compiler.py", line 1708, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 252, in upload_resource
+    result = upload_func(file, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 197, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 833, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\uploader.py", line 881, in call_api
+    params = utils.sign_request(params, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\cloudinary\utils.py", line 617, in sign_request
+    raise ValueError("Must supply api_key")
+ValueError: Must supply api_key
+ERROR 2025-04-03 11:14:30,367 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:16:52,786 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:20,641 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:20,840 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:23,467 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:25,125 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:27,099 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:28,502 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:30,542 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:31,095 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:33,009 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:34,690 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:35,125 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:36,943 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:39,028 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:41,257 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:44,476 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:46,478 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+ERROR 2025-04-03 11:29:49,827 log Internal Server Error: /image_upload
+Traceback (most recent call last):
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\env\scripts\python.py\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\qr\qr\qr\website\views.py", line 72, in image_upload
+    {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'url'
+WARNING 2025-04-03 11:49:20,296 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:23,320 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:26,346 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:29,359 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:32,384 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:35,402 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:38,426 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:41,444 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:44,468 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:47,487 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:50,513 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:53,526 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:49:56,548 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:01,145 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:04,158 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:07,182 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:10,210 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:13,242 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:16,260 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:19,274 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:22,287 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:25,299 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:28,316 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:31,338 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:34,357 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:37,371 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:40,393 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:43,399 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:46,424 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:49,439 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:52,453 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:55,469 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:50:58,485 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:51:01,511 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:51:04,529 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:51:07,545 log Not Found: /__reload__/events/
+WARNING 2025-04-03 11:51:10,558 log Not Found: /__reload__/events/
+INFO 2025-04-03 11:52:36,579 autoreload Watching for file changes with StatReloader
+INFO 2025-04-03 11:52:38,031 runserver HTTP GET / 200 [0.09, 127.0.0.1:63503]
+INFO 2025-04-03 11:52:38,086 runserver HTTP GET /static/css/dist/styles.css 200 [0.02, 127.0.0.1:63503]
+INFO 2025-04-03 11:52:38,102 runserver HTTP GET /static/js/websocket.js 200 [0.03, 127.0.0.1:63504]
+INFO 2025-04-03 11:52:38,121 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:63508]
+INFO 2025-04-03 11:52:38,193 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:63508]
+INFO 2025-04-03 11:52:53,419 runserver HTTP GET / 200 [0.10, 127.0.0.1:63504]
+INFO 2025-04-03 11:52:53,497 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:63531]
+INFO 2025-04-03 11:52:53,563 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:63531]
+INFO 2025-04-03 11:52:54,295 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:63531]
+INFO 2025-04-03 11:52:54,881 runserver WebSocket DISCONNECT /ws/somepath/ [127.0.0.1:63508]
+INFO 2025-04-03 11:53:02,594 autoreload Watching for file changes with StatReloader
+WARNING 2025-04-03 11:56:15,649 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 11:56:15,839 log Not Found: /static/img/favicon.png
+WARNING 2025-04-03 11:57:13,191 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 11:57:13,806 log Not Found: /static/img/favicon.png
+WARNING 2025-04-03 11:57:23,717 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 11:57:23,775 log Not Found: /favicon.ico
+WARNING 2025-04-03 11:59:38,242 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 11:59:39,155 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 11:59:39,194 log Not Found: /favicon.ico
+WARNING 2025-04-03 12:00:05,736 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 12:00:18,267 log Not Found: /static/img/favicon.png
+WARNING 2025-04-03 12:00:39,201 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 12:00:57,219 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 12:00:58,226 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 12:00:58,618 log Not Found: /static/img/favicon.png
+WARNING 2025-04-03 12:15:03,128 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:03,238 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:03,364 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:03,488 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:03,615 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:03,740 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:03,863 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:03,983 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,093 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,223 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,345 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,463 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,574 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,702 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,824 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:04,934 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:05,066 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:05,184 log Not Found: /__reload__/events/
+WARNING 2025-04-03 12:15:05,249 log Not Found: /static/css/dist/styles.css
+WARNING 2025-04-03 12:15:05,249 log Not Found: /static/js/upload_image.js
+WARNING 2025-04-03 12:15:05,421 log Not Found: /static/img/favicon.png

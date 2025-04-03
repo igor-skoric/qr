@@ -3,7 +3,6 @@ from channels.generic.websocket import AsyncWebsocketConsumer
 from .models import Image, Client
 from channels.db import database_sync_to_async
 
-
 class ImageConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         self.room_group_name = "image_group"
@@ -27,7 +26,6 @@ class ImageConsumer(AsyncWebsocketConsumer):
             image_url = default_client.background_image.url
 
 
-
         await self.send(text_data=json.dumps({
             'message': image_url  # Pošaljite samo URL slike
         }))
@@ -45,8 +43,6 @@ class ImageConsumer(AsyncWebsocketConsumer):
         await self.send(text_data=json.dumps({
             'message': event['message']
         }))
-
-    from channels.db import database_sync_to_async
 
     @database_sync_to_async
     def get_latest_image(self):

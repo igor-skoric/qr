@@ -1,3 +1,5 @@
 /media/qr_codes/
 /media/user_images/
 /logs/
+/qr/.env
+/db.sqlite3

@@ -63,13 +63,15 @@ def image_upload(request):
         # Čuvanje slike u bazi podataka
         image = Image(image=request.FILES['file'])
         image.save()
+        print(image.qr_code)
+        print(image.image)
 
 
         # Obavesti sve klijente preko WebSocket-a
         channel_layer = get_channel_layer()
         async_to_sync(channel_layer.group_send)(
             "qr_codes",
-            {"type": "send_qr_code", "qr_code_url": image.qr_code.url},
+            {"type": "send_qr_code", "qr_code_url": image.qr_code},
         )
 
 
