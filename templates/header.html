@@ -4,32 +4,32 @@
         <div class="max-w-[1600px] mx-auto text-white">
           <nav class="hidden lg:flex gap-10 items-center px-10">
                 <div class="container mx-auto flex gap-10 items-center">
-                    <a href="{% url 'home' %}">
+                    <a href="{% url 'website:home' %}">
                         <h1 class="text-3xl font-bold">QR Code</h1>
                     </a>
                     <div class="flex">
-                        <a href="{% url 'admin:website_image_changelist' %}">
+                        <a href="{% url 'myadmin:index' %}">
                             <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Admin</h1>
                         </a>
-                        <a href="{% url 'home' %}">
+                        <a href="{% url 'website:home' %}">
                             <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Poslednji QR</h1>
                         </a>
-                        <a href="{% url 'all_codes' %}">
+                        <a href="{% url 'website:all_codes' %}">
                             <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Svi QR</h1>
                         </a>
-                        <a href="{% url 'upload_image' %}">
+                        <a href="{% url 'website:upload_image' %}">
                             <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Upload image</h1>
                         </a>
                     </div>
                 </div>
                 <div>
                     {% if user.is_authenticated %}
-                   <form action="{% url 'admin:logout' %}" method="post" style="display: inline;">
+                   <form action="{% url 'myadmin:logout' %}" method="post" style="display: inline;">
                         {% csrf_token %}
                         <button type="submit" class="btn btn-danger p-5 hover:bg-gray-900">Logout</button>
                     </form>
                     {% else %}
-                    <a href="{% url 'admin:index' %}">
+                    <a href="{% url 'myadmin:index' %}">
                         <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-900">login</h1>
                     </a>
                 {% endif %}
@@ -37,7 +37,7 @@
           </nav>
 
           <div class="lg:hidden flex items-center justify-between w-full">
-              <a href="{% url 'home' %}">
+              <a href="{% url 'website:home' %}">
                   <h1 class="text-3xl p-5">QR CODES</h1>
               </a>
             <div class="flex items-center">
@@ -60,23 +60,23 @@
                 <h1 class="text-3xl">QR CODES</h1>
             </div>
             <br>
-            <a href="{% url 'admin:website_image_changelist' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
+            <a href="{% url 'myadmin:index' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
                 <h1 class="text-xl font-bold cursor-pointer">Admin</h1>
             </a>
-            <a href="{% url 'home' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
+            <a href="{% url 'website:home' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
                 <h1 class="text-xl font-bold cursor-pointer">Poslednji QR</h1>
             </a>
-            <a href="{% url 'all_codes' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
+            <a href="{% url 'website:all_codes' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
                 <h1 class="text-xl font-bold cursor-pointer">Svi QR</h1>
             </a>
             <div class="text-xl block px-6 py-6 hover:bg-gray-600">
                 {% if user.is_authenticated %}
-                   <form action="{% url 'admin:logout' %}" method="post" >
+                   <form action="{% url 'myadmin:logout' %}" method="post" >
                         {% csrf_token %}
                         <button type="submit" class="btn btn-danger w-full">Logout</button>
                     </form>
                     {% else %}
-                    <a href="{% url 'admin:index' %}">
+                    <a href="{% url 'myadmin:index' %}">
                         <h1 class="text-xl font-bold cursor-pointer">login</h1>
                     </a>
                 {% endif %}

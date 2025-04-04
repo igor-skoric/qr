@@ -35,7 +35,7 @@ SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", default=False)
-
+print(DEBUG)
 ALLOWED_HOSTS = ['testqrcode.rs.itbranch.rs', '127.0.0.1', 'qr-codes-1d661a844374.herokuapp.com','localhost']
 
 CSRF_TRUSTED_ORIGINS = [
@@ -48,13 +48,20 @@ CSRF_TRUSTED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
-    # Aplikacije koje se tiču statičkih fajlova
-    'cloudinary',
-    'cloudinary_storage',
+
+    'website',
+
+    # Aplikacije za kanale (WebSocket)
     'daphne',
+    'channels',
+
+    # Aplikacije za frontend, teme, i administraciju
     'tailwind',
+    # Dodatne aplikacije
+    'django_browser_reload',
     'theme',
     'jazzmin',
+    # Osnovne Django aplikacije
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -62,10 +69,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'django_browser_reload',
-    'channels',
-    'website',
+
+    # Aplikacije za medijske fajlove - OBAVEZNO DA BUDU ISPOD
+    'cloudinary',
+    'cloudinary_storage',
+
 ]
+
+
+ADMIN_SITE = 'qr.admin.admin_site.admin_site'
 
 SITE_ID = 1
 
@@ -79,6 +91,7 @@ CHANNEL_LAYERS = {
 }
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -86,7 +99,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
@@ -113,12 +125,18 @@ TEMPLATES = [
 cloudinary.config(
     cloud_name=env("CLOUDINARY_CLOUD_NAME"),
     api_key=env("CLOUDINARY_API_KEY"),
-    api_secret=env("CLOUDINARY_API_SECRET")
+    api_secret=env("CLOUDINARY_API_SECRET"),
+    secure=True
 )
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': env("CLOUDINARY_CLOUD_NAME"),
     'API_KEY': env("CLOUDINARY_API_KEY"),
     'API_SECRET': env("CLOUDINARY_API_SECRET"),
+    "SECURE": True,
+    'DEFAULT_TRANSFORMATION': [
+        {'quality': 'auto'},  # Automatska optimizacija kvaliteta
+        {'fetch_format': 'auto'},  # Automatski format slike (npr. WebP umesto PNG)
+    ]
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
@@ -168,10 +186,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Putanja gde će se statički fajlovi čuvati u produkciji (nakon komande collectstatic)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles2')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Direktori za dodatne statičke fajlove
 STATICFILES_DIRS = [
@@ -203,17 +221,6 @@ NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
 # Whitenoise
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-
-# settings.py
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'mail.qr.rs'  # SMTP server za vašu domenu (npr. cPanel)
-EMAIL_PORT = 587    # Koristi 587 za TLS (ako koristite TLS enkripciju)
-EMAIL_USE_TLS = True  # Uključivanje TLS enkripcije (ili False ako ne koristiš TLS)
-EMAIL_HOST_USER = 'contact@qr.rs'  # Tvoj email
-EMAIL_HOST_PASSWORD = ''  # Tvoj email password (ili aplikacijski password)
-DEFAULT_FROM_EMAIL = 'contact@qr.rs'  # Email sa kojeg ćeš slati poruke
-
-WSGI_APPLICATION = 'qr.wsgi.application'
 
 LOGGING_DIR = os.path.join(BASE_DIR, "logs")  # Kreiraj folder za logove
 if not os.path.exists(LOGGING_DIR):
@@ -259,5 +266,19 @@ LOGGING = {
             "level": "INFO",  # Hvatamo i INFO i ERROR logove
             "propagate": True,
         },
+    },
+}
+
+JAZZMIN_SETTINGS = {
+    "site_title": "My Admin Panel",
+    "site_header": "My Admin Panel",
+    "welcome_sign": "Welcome to My Admin Panel",
+    "custom_links": {
+        "website": [{
+            "name": "Home",
+            "url": "/",
+            "icon": "fas fa-home",
+            "permissions": ["auth.view_user"]
+        }]
     },
 }

@@ -1,4 +1,5 @@
-from .models import Client
+from .models import Client, Image
+
 
 def default_client(request):
     # Dohvati prvog klijenta sa is_default=True

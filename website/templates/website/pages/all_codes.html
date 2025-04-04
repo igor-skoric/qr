@@ -2,6 +2,94 @@
 
 {% block content %}
 
-    {% include 'website/components/all_codes.html' %}
+<!-- Main Content -->
+<main class="container mx-auto py-8">
+
+    {% if page_obj %}
+    <!-- Paginacija -->
+    <div class="bg-black/30 flex justify-center p-5 rounded-xl">
+        <div class="flex items-center space-x-2 flex-col space-y-2 sm:flex-row sm:space-y-0">
+            <!-- First Page Link -->
+            {% if page_obj.has_previous %}
+            <a href="?page=1"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">&laquo;
+                First</a>
+            <a href="?page={{ page_obj.previous_page_number }}"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">Previous</a>
+            {% endif %}
+
+            <!-- Current Page Info -->
+            <span class="text-sm text-white">
+                            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                        </span>
+
+            <!-- Next Page Link -->
+            {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">Next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">Last
+                &raquo;</a>
+            {% endif %}
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
+        {% for image in page_obj %}
+
+            <a href="{% url 'website:code' image.id %}">
+                <div class="relative bg-white p-6 rounded-lg shadow-xl flex justify-center items-center flex-col transform transition-all hover:-translate-y-5 duration-500">
+                    <h2 class="text-center text-lg font-semibold mb-4">QR Code za {{ image }}</h2>
+                    <div class="flex justify-center mb-4">
+                        <img src="{{ image.qr_code.url }}" alt="QR Kod" class="w-64">
+                    </div>
+                    <div class="flex justify-center items-center mb-4">
+                        <img src="{{ image.image.url }}" alt="QR Kod" class="">
+                    </div>
+                    <p class="absolute bottom-0 text-center text-sm text-gray-600">{{ image.created_at|date:"d.m.Y H:i" }}</p>
+                </div>
+            </a>
+
+        {% endfor %}
+    </div>
+    <!-- Paginacija -->
+    <div class="bg-black/30 flex justify-center mt-8 p-5 rounded-xl">
+        <div class="flex items-center space-x-2 flex-col space-y-2 sm:flex-row sm:space-y-0">
+            <!-- First Page Link -->
+            {% if page_obj.has_previous %}
+            <a href="?page=1"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">&laquo;
+                First</a>
+            <a href="?page={{ page_obj.previous_page_number }}"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">Previous</a>
+            {% endif %}
+
+            <!-- Current Page Info -->
+            <span class="text-sm text-white">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            <!-- Next Page Link -->
+            {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">Next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}"
+               class="px-4 py-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-lg hover:bg-gray-400 transition duration-200">Last
+                &raquo;</a>
+            {% endif %}
+        </div>
+    </div>
+    {% else %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
+        <a href="">
+            <div class="relative bg-white p-6 rounded-lg shadow-xl flex justify-center items-center flex-col transform transition-all hover:-translate-y-5 duration-500">
+                <h2 class="text-center text-lg font-semibold mb-4">Unesite prvu sliku.</h2>
+            </div>
+        </a>
+    </div>
+    {% endif %}
+
+
+    </div>
+</main>
 
 {% endblock %}

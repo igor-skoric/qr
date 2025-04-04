@@ -4,9 +4,10 @@ from .models import Image
 from django.contrib.auth.decorators import login_required
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
+from django.core.paginator import Paginator
 
 
-@login_required(login_url='/admin/login/')
+@login_required(login_url='/myadmin/login/')
 def home(request):
     title = "Poslednja slika"
     context = {
@@ -16,19 +17,23 @@ def home(request):
     return render(request, 'website/pages/index.html', context)
 
 
-@login_required(login_url='/admin/login/')
+@login_required(login_url='/myadmin/login/')
 def all_codes(request):
+    images = Image.objects.all().order_by('-created_at')  # Svi objekti slika, sortirano po datumu kreiranja
 
-    images = Image.objects.all().order_by('-created_at')
+    # Paginacija - 10 slika po stranici
+    paginator = Paginator(images, 16)  # Broj slika po stranici
+    page_number = request.GET.get('page')  # Broj stranice iz GET parametra
+    page_obj = paginator.get_page(page_number)  # Dobijanje objekta za trenutnu stranicu
 
     context = {
-        'images': images
+        'page_obj': page_obj
     }
 
     return render(request, 'website/pages/all_codes.html', context)
 
 
-@login_required(login_url='/admin/login/')
+@login_required(login_url='/myadmin/login/')
 def code(request, pk):
 
     chosen_image = Image.objects.get(id=pk)
@@ -42,7 +47,7 @@ def code(request, pk):
     return render(request, 'website/pages/index.html', context)
 
 
-@login_required(login_url='/admin/login/')
+@login_required(login_url='/myadmin/login/')
 def upload_image(request):
     context = {
         'images': 'images'
@@ -63,9 +68,6 @@ def image_upload(request):
         # Čuvanje slike u bazi podataka
         image = Image(image=request.FILES['file'])
         image.save()
-        print(image.qr_code)
-        print(image.image)
-
 
         # Obavesti sve klijente preko WebSocket-a
         channel_layer = get_channel_layer()
@@ -76,7 +78,7 @@ def image_upload(request):
 
 
         # Vraćanje URL-a slike kao odgovora, koji će se koristiti u frontend-u
-        image_url = image.image.url
+        image_url = image.image
         return JsonResponse({'file_url': image_url})
 
     return JsonResponse({'error': 'No image provided'}, status=400)

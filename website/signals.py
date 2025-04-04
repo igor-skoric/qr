@@ -1,26 +1,10 @@
 import os
-from django.db.models.signals import post_delete, post_save
+from django.db.models.signals import post_delete, post_save, pre_delete
 from django.dispatch import receiver
-from .models import Image
+from .models import Image, Client
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
-
-
-# @receiver(post_delete, sender=Image)
-# def delete_image_files(sender, instance, **kwargs):
-#     """ Briše slike iz fajl sistema kada se model obriše iz baze. """
-#
-#     # Briše glavnu sliku
-#     if instance.image:
-#         image_path = instance.image.path
-#         if os.path.isfile(image_path):
-#             os.remove(image_path)
-#
-#     # Briše QR kod ako postoji
-#     if instance.qr_code:
-#         qr_code_path = instance.qr_code.path
-#         if os.path.isfile(qr_code_path):
-#             os.remove(qr_code_path)
+import cloudinary.uploader
 
 
 @receiver(post_save, sender=Image)
@@ -37,3 +21,35 @@ def notify_new_image(sender, instance, created, **kwargs):
                 "message": instance.qr_code  # URL nove slike
             }
         )
+
+# Signal koji se aktivira pre nego što objekat bude obrisan iz baze
+@receiver(pre_delete, sender=Image)
+def delete_image_from_cloudinary(sender, instance, **kwargs):
+    # Briše slike sa Cloudinary-ja kada se objekat obriše iz baze
+    image_public_id = get_public_id_from_url(instance.image.public_id)
+    qr_public_id = get_public_id_from_url(instance.qr_code.public_id)
+
+    if image_public_id:
+        cloudinary.uploader.destroy(image_public_id)
+    if qr_public_id:
+        cloudinary.uploader.destroy(qr_public_id)
+
+
+@receiver(pre_delete, sender=Client)
+def delete_image_from_cloudinary(sender, instance, **kwargs):
+    # Briše slike sa Cloudinary-ja kada se objekat obriše iz baze
+    background_image_public_id = get_public_id_from_url(instance.background_image.public_id)
+
+    if background_image_public_id:
+        y = cloudinary.uploader.destroy(background_image_public_id)
+
+def get_public_id_from_url(url):
+    # Splitujemo URL kod '/upload/'
+    split_url = url.split('/upload/')
+    if len(split_url) == 2:
+        # Drugi deo je ono što nas zanima, delimo ga opet
+        version_and_public_id = split_url[1].split('/', 1)  # Delimo na verziju i public_id
+        if len(version_and_public_id) == 2:
+            public_id = version_and_public_id[1]  # Drugi deo je public_id
+            return public_id
+    return None  # Ako nije u ispravnom formatu
