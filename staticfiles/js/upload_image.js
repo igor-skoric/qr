@@ -17,7 +17,7 @@ Dropzone.options.imageDropzone = {
         });
 
         this.on("error", function(file, response) {
-            alert("Došlo je do greške prilikom upload-a.");
+            alert("Došlo je do greške prilikom upload-a." + response );
         });
     }
 };
