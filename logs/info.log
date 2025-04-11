@@ -33385,3 +33385,4 @@ INFO 2025-04-04 14:02:13,564 runserver HTTP GET / 200 [0.09, 127.0.0.1:55568]
 INFO 2025-04-04 14:02:13,634 runserver HTTP GET /static/css/dist/styles.css?v=1743768133 200 [0.00, 127.0.0.1:55568]
 INFO 2025-04-04 14:02:13,663 runserver WebSocket HANDSHAKING /ws/somepath/ [127.0.0.1:55580]
 INFO 2025-04-04 14:02:13,744 runserver WebSocket CONNECT /ws/somepath/ [127.0.0.1:55580]
+WARNING 2025-04-11 13:11:30,175 log Not Found: /product_details/prva-nova-jahta123/

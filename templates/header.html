@@ -1,6 +1,6 @@
 {% load static %}
  <!-- Header -->
-    <header class="fixed top-0 left-0 w-full  bg-gray-600/50 z-40 ">
+    <header id="main-header" class="transition-opacity duration-500 fixed top-0 left-0 w-full  bg-gray-600/50 z-40 ">
         <div class="max-w-[1600px] mx-auto text-white">
           <nav class="hidden lg:flex gap-10 items-center px-10">
                 <div class="container mx-auto flex gap-10 items-center">
@@ -18,19 +18,19 @@
                             <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Svi QR</h1>
                         </a>
                         <a href="{% url 'website:upload_image' %}">
-                            <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Upload image</h1>
+                            <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Unesi Sliku</h1>
                         </a>
                     </div>
                 </div>
                 <div>
                     {% if user.is_authenticated %}
-                   <form action="{% url 'myadmin:logout' %}" method="post" style="display: inline;">
+                   <form action="{% url 'myadmin:logout' %}" method="post" >
                         {% csrf_token %}
-                        <button type="submit" class="btn btn-danger p-5 hover:bg-gray-900">Logout</button>
+                        <button type="submit" class="btn btn-danger p-5 hover:bg-gray-900">Izloguj se</button>
                     </form>
                     {% else %}
                     <a href="{% url 'myadmin:index' %}">
-                        <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-900">login</h1>
+                        <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-900">Uloguj se</h1>
                     </a>
                 {% endif %}
                 </div>
@@ -69,15 +69,18 @@
             <a href="{% url 'website:all_codes' %}" class="text-2xl block px-6 py-6 hover:bg-gray-600">
                 <h1 class="text-xl font-bold cursor-pointer">Svi QR</h1>
             </a>
+                                    <a href="{% url 'website:upload_image' %}">
+                            <h1 class="text-xl font-bold cursor-pointer p-5 hover:bg-gray-700">Unesi Sliku</h1>
+                        </a>
             <div class="text-xl block px-6 py-6 hover:bg-gray-600">
                 {% if user.is_authenticated %}
                    <form action="{% url 'myadmin:logout' %}" method="post" >
                         {% csrf_token %}
-                        <button type="submit" class="btn btn-danger w-full">Logout</button>
+                        <button type="submit" class="btn btn-danger w-full">Izloguj se</button>
                     </form>
                     {% else %}
                     <a href="{% url 'myadmin:index' %}">
-                        <h1 class="text-xl font-bold cursor-pointer">login</h1>
+                        <h1 class="text-xl font-bold cursor-pointer">Uloguj se</h1>
                     </a>
                 {% endif %}
             </div>
