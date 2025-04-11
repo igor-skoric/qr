@@ -28,7 +28,8 @@ def delete_image_from_cloudinary(sender, instance, **kwargs):
     # Briše slike sa Cloudinary-ja kada se objekat obriše iz baze
     image_public_id = get_public_id_from_url(instance.image.public_id)
     qr_public_id = get_public_id_from_url(instance.qr_code.public_id)
-
+    print(image_public_id)
+    print(qr_public_id)
     if image_public_id:
         cloudinary.uploader.destroy(image_public_id)
     if qr_public_id:
