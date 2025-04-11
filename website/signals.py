@@ -5,7 +5,9 @@ from .models import Image, Client
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 import cloudinary.uploader
+import logging
 
+logger = logging.getLogger(__name__)
 
 @receiver(post_save, sender=Image)
 def notify_new_image(sender, instance, created, **kwargs):
@@ -26,10 +28,11 @@ def notify_new_image(sender, instance, created, **kwargs):
 @receiver(pre_delete, sender=Image)
 def delete_image_from_cloudinary(sender, instance, **kwargs):
     # Briše slike sa Cloudinary-ja kada se objekat obriše iz baze
+    logger.info(f"Usao u delete sa Cloudinary-ja {instance}")
     image_public_id = get_public_id_from_url(instance.image.public_id)
     qr_public_id = get_public_id_from_url(instance.qr_code.public_id)
-    print(image_public_id)
-    print(qr_public_id)
+    logger.info(f"{image_public_id}")
+    logger.info(f"{qr_public_id}")
     if image_public_id:
         cloudinary.uploader.destroy(image_public_id)
     if qr_public_id:
@@ -38,6 +41,7 @@ def delete_image_from_cloudinary(sender, instance, **kwargs):
 
 @receiver(pre_delete, sender=Client)
 def delete_image_from_cloudinary(sender, instance, **kwargs):
+    logger.info(f"Usao u delete sa Cloudinary-ja {instance}")
     # Briše slike sa Cloudinary-ja kada se objekat obriše iz baze
     background_image_public_id = get_public_id_from_url(instance.background_image.public_id)
 
@@ -46,11 +50,18 @@ def delete_image_from_cloudinary(sender, instance, **kwargs):
 
 def get_public_id_from_url(url):
     # Splitujemo URL kod '/upload/'
+    logger.info(f"Usao u get_public_id_from_url ")
     split_url = url.split('/upload/')
+    logger.info(f"Usao u get_public_id_from_url {split_url}")
     if len(split_url) == 2:
         # Drugi deo je ono što nas zanima, delimo ga opet
+        logger.info(f"Usao u get_public_id_from_url Dalje1")
         version_and_public_id = split_url[1].split('/', 1)  # Delimo na verziju i public_id
+        logger.info(f"Usao u get_public_id_from_url Dalje2")
         if len(version_and_public_id) == 2:
+            logger.info(f"Usao u get_public_id_from_url Dalje3")
             public_id = version_and_public_id[1]  # Drugi deo je public_id
+            logger.info(f"Usao u get_public_id_from_url {public_id}")
             return public_id
+    logger.info(f"Vratio None")
     return None  # Ako nije u ispravnom formatu
