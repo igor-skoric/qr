@@ -40,7 +40,7 @@ def delete_image_from_cloudinary(sender, instance, **kwargs):
 
 
 @receiver(pre_delete, sender=Client)
-def delete_image_from_cloudinary(sender, instance, **kwargs):
+def delete_client_from_cloudinary(sender, instance, **kwargs):
     logger.info(f"Usao u delete sa Cloudinary-ja {instance}")
     # Briše slike sa Cloudinary-ja kada se objekat obriše iz baze
     background_image_public_id = get_public_id_from_url(instance.background_image.public_id)
